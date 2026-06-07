@@ -6,6 +6,25 @@ a maintenance tracking system for an aviation/industrial
 organisation. Built to demonstrate SQL, Python, and 
 Power BI capabilities in an operational context.
 
+## Dashboard Preview
+
+### Page 1 — Work Order Overview
+<img width="1757" height="989" alt="image" src="https://github.com/user-attachments/assets/a9ae6cf4-4074-48c3-a817-c31f47cf1c19" />
+
+
+### Page 2 — SLA Compliance
+<img width="1758" height="991" alt="image" src="https://github.com/user-attachments/assets/846a5175-f5da-4f53-8178-b3f0403f65fa" />
+
+
+### Page 3 — Cost Analysis
+<img width="1756" height="990" alt="image" src="https://github.com/user-attachments/assets/1d7e4804-d6c1-4cb6-be2c-4081a7039a45" />
+
+
+### Page 4 — Asset Downtime
+<img width="1759" height="990" alt="image" src="https://github.com/user-attachments/assets/815c097a-6a96-450d-bb01-0f87f36be764" />
+
+
+
 ## Tech Stack
 - Python 3 + Faker — synthetic data generation
 - SQLite — relational database
