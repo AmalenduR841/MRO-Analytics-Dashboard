@@ -1,0 +1,21 @@
+technician_id,full_name,skill_level,specialisation,hourly_rate,active
+TECH-0001,Allison Hill,Junior,Hydraulics,30.315513900105884,1
+TECH-0002,Noah Rhodes,Lead,Mechanical,93.82660171615527,1
+TECH-0003,Angie Henderson,Junior,Avionics,40.61761419822681,1
+TECH-0004,Daniel Wagner,Junior,Mechanical,31.011004921654614,1
+TECH-0005,Cristian Santos,Junior,Hydraulics,31.0628602483298,1
+TECH-0006,Connie Lawrence,Junior,Hydraulics,40.03466667444421,1
+TECH-0007,Abigail Shaffer,Junior,Structures,31.984677730875376,1
+TECH-0008,Gina Moore,Lead,Structures,92.09006539467691,1
+TECH-0009,Gabrielle Davis,Senior,Electrical,57.85614871542816,1
+TECH-0010,Ryan Munoz,Junior,Electrical,35.31446349884331,1
+TECH-0011,Monica Herrera,Senior,Electrical,67.95755122554405,1
+TECH-0012,Jamie Arnold,Junior,Avionics,30.909190111155205,1
+TECH-0013,Lisa Hensley,Lead,Hydraulics,97.00888766292547,1
+TECH-0014,Michele Williams,Junior,Mechanical,32.87385108212481,1
+TECH-0015,Dylan Miller,Lead,Electrical,87.10273445642162,1
+TECH-0016,Brian Ramirez,Junior,Hydraulics,36.939421026014514,1
+TECH-0017,Holly Wood,Junior,Electrical,42.12033367097554,1
+TECH-0018,Derek Zuniga,Lead,Avionics,85.75882494287322,1
+TECH-0019,Lisa Jackson,Lead,Avionics,99.53494385927127,1
+TECH-0020,Carla Gray,Junior,Mechanical,36.09621086928708,1

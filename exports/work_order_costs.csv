@@ -1,0 +1,862 @@
+cost_id,wo_id,cost_type,description,amount,currency
+1,WO-00001,Parts,Filter element,1703.55,USD
+2,WO-00001,Labour,Specialist call-out,510.67,USD
+3,WO-00003,Parts,Wiring harness,3543.0,USD
+4,WO-00003,Labour,Technician hours,943.17,USD
+5,WO-00004,Labour,Overtime labour,392.75,USD
+6,WO-00005,Subcontract,Avionics shop repair,7054.09,USD
+7,WO-00005,Parts,Wiring harness,687.66,USD
+8,WO-00007,Labour,Overtime labour,1385.76,USD
+9,WO-00008,Parts,Hydraulic seal kit,2094.19,USD
+10,WO-00009,Labour,Technician hours,107.81,USD
+11,WO-00009,Subcontract,Avionics shop repair,6860.93,USD
+12,WO-00009,Labour,Specialist call-out,987.06,USD
+13,WO-00011,Parts,Wiring harness,150.04,USD
+14,WO-00012,Labour,Technician hours,709.67,USD
+15,WO-00012,Parts,Wiring harness,2418.63,USD
+16,WO-00013,Labour,Specialist call-out,383.71,USD
+17,WO-00013,Parts,Hydraulic seal kit,4314.43,USD
+18,WO-00014,Labour,Technician hours,1130.8,USD
+19,WO-00014,Labour,Specialist call-out,368.96,USD
+20,WO-00014,Labour,Specialist call-out,1190.76,USD
+21,WO-00015,Parts,Actuator unit,4020.48,USD
+22,WO-00017,Parts,Filter element,179.02,USD
+23,WO-00017,Subcontract,OEM engineering visit,1294.45,USD
+24,WO-00017,Parts,Bearing assembly,1794.03,USD
+25,WO-00019,Labour,Overtime labour,1295.99,USD
+26,WO-00019,Labour,Specialist call-out,1271.0,USD
+27,WO-00019,Parts,Filter element,3222.4,USD
+28,WO-00020,Labour,Technician hours,1950.0,USD
+29,WO-00020,Labour,Specialist call-out,1178.8,USD
+30,WO-00020,Parts,Bearing assembly,482.82,USD
+31,WO-00021,Labour,Overtime labour,1556.34,USD
+32,WO-00021,Parts,Filter element,689.56,USD
+33,WO-00022,Parts,Wiring harness,1794.74,USD
+34,WO-00022,Labour,Overtime labour,727.62,USD
+35,WO-00022,Labour,Specialist call-out,961.24,USD
+36,WO-00023,Parts,Hydraulic seal kit,1613.91,USD
+37,WO-00024,Labour,Specialist call-out,1559.09,USD
+38,WO-00024,Labour,Technician hours,1065.1,USD
+39,WO-00025,Labour,Technician hours,719.15,USD
+40,WO-00025,Labour,Specialist call-out,1112.22,USD
+41,WO-00026,Labour,Technician hours,1279.66,USD
+42,WO-00026,Labour,Specialist call-out,829.25,USD
+43,WO-00027,Parts,Actuator unit,1968.61,USD
+44,WO-00027,Subcontract,Avionics shop repair,6404.95,USD
+45,WO-00028,Labour,Technician hours,1358.96,USD
+46,WO-00028,Parts,Actuator unit,3773.53,USD
+47,WO-00028,Parts,Actuator unit,2109.94,USD
+48,WO-00029,Parts,Bearing assembly,833.97,USD
+49,WO-00029,Subcontract,OEM engineering visit,4986.94,USD
+50,WO-00029,Labour,Overtime labour,1565.55,USD
+51,WO-00030,Parts,Hydraulic seal kit,452.87,USD
+52,WO-00030,Labour,Overtime labour,1816.19,USD
+53,WO-00032,Labour,Technician hours,1355.67,USD
+54,WO-00032,Parts,Wiring harness,1785.42,USD
+55,WO-00032,Labour,Technician hours,490.76,USD
+56,WO-00033,Parts,Wiring harness,4137.33,USD
+57,WO-00033,Subcontract,Avionics shop repair,7869.35,USD
+58,WO-00034,Subcontract,Avionics shop repair,560.89,USD
+59,WO-00034,Subcontract,Third-party NDT,6857.28,USD
+60,WO-00035,Parts,Actuator unit,4357.15,USD
+61,WO-00035,Parts,Actuator unit,3702.35,USD
+62,WO-00036,Parts,Wiring harness,3902.27,USD
+63,WO-00036,Parts,Actuator unit,1804.49,USD
+64,WO-00038,Labour,Specialist call-out,824.97,USD
+65,WO-00038,Labour,Overtime labour,429.48,USD
+66,WO-00039,Parts,Bearing assembly,3802.81,USD
+67,WO-00040,Labour,Technician hours,648.09,USD
+68,WO-00040,Labour,Technician hours,355.13,USD
+69,WO-00042,Labour,Technician hours,1470.54,USD
+70,WO-00044,Labour,Technician hours,260.86,USD
+71,WO-00044,Labour,Specialist call-out,1734.29,USD
+72,WO-00045,Labour,Specialist call-out,1284.17,USD
+73,WO-00045,Parts,Bearing assembly,2506.62,USD
+74,WO-00045,Parts,Wiring harness,1054.55,USD
+75,WO-00046,Labour,Overtime labour,1046.5,USD
+76,WO-00046,Labour,Overtime labour,1053.28,USD
+77,WO-00048,Subcontract,Avionics shop repair,3252.28,USD
+78,WO-00048,Subcontract,Avionics shop repair,4124.51,USD
+79,WO-00049,Parts,Bearing assembly,4329.73,USD
+80,WO-00049,Parts,Actuator unit,4426.93,USD
+81,WO-00050,Parts,Hydraulic seal kit,2378.94,USD
+82,WO-00050,Labour,Technician hours,997.66,USD
+83,WO-00052,Labour,Overtime labour,248.36,USD
+84,WO-00052,Labour,Overtime labour,693.75,USD
+85,WO-00052,Parts,Wiring harness,2430.9,USD
+86,WO-00053,Parts,Actuator unit,4081.95,USD
+87,WO-00054,Labour,Specialist call-out,770.54,USD
+88,WO-00054,Subcontract,Third-party NDT,2669.06,USD
+89,WO-00054,Parts,Actuator unit,3384.94,USD
+90,WO-00055,Labour,Specialist call-out,216.69,USD
+91,WO-00055,Parts,Filter element,2599.23,USD
+92,WO-00055,Labour,Specialist call-out,1636.9,USD
+93,WO-00056,Parts,Bearing assembly,417.17,USD
+94,WO-00056,Labour,Specialist call-out,578.9,USD
+95,WO-00056,Labour,Specialist call-out,1729.93,USD
+96,WO-00057,Labour,Overtime labour,431.77,USD
+97,WO-00058,Labour,Overtime labour,948.64,USD
+98,WO-00058,Labour,Specialist call-out,1586.8,USD
+99,WO-00058,Parts,Filter element,3607.21,USD
+100,WO-00059,Parts,Hydraulic seal kit,4354.69,USD
+101,WO-00060,Subcontract,OEM engineering visit,6782.11,USD
+102,WO-00060,Labour,Specialist call-out,1563.7,USD
+103,WO-00060,Parts,Bearing assembly,3280.7,USD
+104,WO-00061,Parts,Wiring harness,291.75,USD
+105,WO-00062,Labour,Technician hours,199.79,USD
+106,WO-00062,Parts,Bearing assembly,1391.08,USD
+107,WO-00063,Subcontract,Avionics shop repair,2252.46,USD
+108,WO-00063,Labour,Specialist call-out,1001.72,USD
+109,WO-00063,Parts,Bearing assembly,102.79,USD
+110,WO-00064,Parts,Wiring harness,4329.84,USD
+111,WO-00064,Labour,Technician hours,284.99,USD
+112,WO-00065,Labour,Specialist call-out,1259.92,USD
+113,WO-00065,Labour,Specialist call-out,736.44,USD
+114,WO-00065,Parts,Hydraulic seal kit,1186.28,USD
+115,WO-00066,Parts,Filter element,3317.69,USD
+116,WO-00066,Labour,Technician hours,1087.91,USD
+117,WO-00066,Labour,Technician hours,695.21,USD
+118,WO-00067,Labour,Technician hours,122.73,USD
+119,WO-00069,Labour,Overtime labour,947.29,USD
+120,WO-00070,Labour,Specialist call-out,466.85,USD
+121,WO-00071,Labour,Technician hours,1883.16,USD
+122,WO-00072,Labour,Technician hours,1905.93,USD
+123,WO-00072,Labour,Overtime labour,1919.81,USD
+124,WO-00072,Parts,Actuator unit,628.09,USD
+125,WO-00073,Labour,Overtime labour,1175.53,USD
+126,WO-00073,Subcontract,OEM engineering visit,5717.4,USD
+127,WO-00073,Parts,Bearing assembly,2989.13,USD
+128,WO-00074,Labour,Specialist call-out,1561.78,USD
+129,WO-00075,Subcontract,Third-party NDT,2430.02,USD
+130,WO-00075,Labour,Specialist call-out,1576.5,USD
+131,WO-00075,Parts,Wiring harness,4482.02,USD
+132,WO-00076,Subcontract,Third-party NDT,1834.47,USD
+133,WO-00076,Parts,Filter element,2765.84,USD
+134,WO-00079,Labour,Technician hours,373.36,USD
+135,WO-00080,Parts,Hydraulic seal kit,4111.11,USD
+136,WO-00080,Labour,Technician hours,166.24,USD
+137,WO-00081,Labour,Specialist call-out,1576.75,USD
+138,WO-00082,Labour,Technician hours,1340.44,USD
+139,WO-00083,Subcontract,Avionics shop repair,3428.63,USD
+140,WO-00085,Labour,Specialist call-out,1191.82,USD
+141,WO-00086,Labour,Specialist call-out,1008.46,USD
+142,WO-00086,Parts,Hydraulic seal kit,2453.57,USD
+143,WO-00086,Parts,Bearing assembly,589.36,USD
+144,WO-00087,Subcontract,Third-party NDT,3000.8,USD
+145,WO-00087,Parts,Hydraulic seal kit,2863.61,USD
+146,WO-00087,Subcontract,OEM engineering visit,3240.17,USD
+147,WO-00088,Parts,Bearing assembly,3434.02,USD
+148,WO-00088,Parts,Filter element,835.95,USD
+149,WO-00090,Subcontract,Avionics shop repair,1932.52,USD
+150,WO-00091,Parts,Hydraulic seal kit,2856.25,USD
+151,WO-00091,Parts,Hydraulic seal kit,3989.2,USD
+152,WO-00091,Parts,Filter element,672.75,USD
+153,WO-00092,Parts,Actuator unit,1111.26,USD
+154,WO-00093,Parts,Actuator unit,2913.16,USD
+155,WO-00093,Parts,Bearing assembly,4351.25,USD
+156,WO-00094,Parts,Hydraulic seal kit,1552.85,USD
+157,WO-00095,Parts,Hydraulic seal kit,991.97,USD
+158,WO-00095,Labour,Overtime labour,970.9,USD
+159,WO-00095,Labour,Overtime labour,383.01,USD
+160,WO-00096,Parts,Hydraulic seal kit,214.11,USD
+161,WO-00096,Parts,Hydraulic seal kit,2146.93,USD
+162,WO-00096,Subcontract,OEM engineering visit,2320.12,USD
+163,WO-00098,Parts,Filter element,2865.34,USD
+164,WO-00098,Subcontract,OEM engineering visit,3921.38,USD
+165,WO-00098,Parts,Actuator unit,334.61,USD
+166,WO-00099,Parts,Actuator unit,3606.33,USD
+167,WO-00100,Parts,Filter element,1946.64,USD
+168,WO-00102,Labour,Specialist call-out,329.52,USD
+169,WO-00102,Labour,Overtime labour,360.93,USD
+170,WO-00102,Labour,Technician hours,1552.03,USD
+171,WO-00103,Parts,Hydraulic seal kit,587.32,USD
+172,WO-00103,Parts,Bearing assembly,797.83,USD
+173,WO-00103,Parts,Filter element,2002.04,USD
+174,WO-00104,Parts,Hydraulic seal kit,3570.18,USD
+175,WO-00104,Labour,Specialist call-out,1577.56,USD
+176,WO-00104,Parts,Bearing assembly,409.22,USD
+177,WO-00105,Parts,Hydraulic seal kit,3195.0,USD
+178,WO-00107,Labour,Specialist call-out,1417.66,USD
+179,WO-00107,Labour,Specialist call-out,1415.48,USD
+180,WO-00107,Parts,Wiring harness,2377.74,USD
+181,WO-00108,Parts,Filter element,2766.89,USD
+182,WO-00108,Parts,Filter element,3241.53,USD
+183,WO-00109,Subcontract,Avionics shop repair,6698.63,USD
+184,WO-00109,Parts,Bearing assembly,70.34,USD
+185,WO-00109,Parts,Hydraulic seal kit,4440.39,USD
+186,WO-00110,Labour,Overtime labour,1064.33,USD
+187,WO-00111,Labour,Overtime labour,495.41,USD
+188,WO-00111,Parts,Hydraulic seal kit,3594.93,USD
+189,WO-00113,Labour,Specialist call-out,1045.28,USD
+190,WO-00113,Parts,Hydraulic seal kit,290.42,USD
+191,WO-00113,Parts,Filter element,1984.29,USD
+192,WO-00116,Labour,Specialist call-out,182.3,USD
+193,WO-00116,Labour,Overtime labour,434.19,USD
+194,WO-00117,Parts,Hydraulic seal kit,365.32,USD
+195,WO-00118,Labour,Overtime labour,1201.55,USD
+196,WO-00119,Parts,Wiring harness,1073.78,USD
+197,WO-00119,Parts,Filter element,486.39,USD
+198,WO-00120,Parts,Filter element,1721.12,USD
+199,WO-00120,Parts,Bearing assembly,2653.66,USD
+200,WO-00120,Parts,Bearing assembly,694.99,USD
+201,WO-00121,Parts,Bearing assembly,1712.01,USD
+202,WO-00121,Parts,Filter element,2862.49,USD
+203,WO-00121,Subcontract,OEM engineering visit,3019.19,USD
+204,WO-00122,Labour,Technician hours,633.15,USD
+205,WO-00123,Labour,Specialist call-out,894.63,USD
+206,WO-00124,Parts,Wiring harness,2736.18,USD
+207,WO-00124,Labour,Overtime labour,1910.24,USD
+208,WO-00125,Labour,Overtime labour,1724.51,USD
+209,WO-00126,Parts,Actuator unit,2227.0,USD
+210,WO-00127,Labour,Specialist call-out,630.42,USD
+211,WO-00128,Parts,Filter element,1152.85,USD
+212,WO-00128,Parts,Filter element,4018.61,USD
+213,WO-00128,Labour,Technician hours,1836.13,USD
+214,WO-00130,Parts,Hydraulic seal kit,228.26,USD
+215,WO-00131,Labour,Overtime labour,163.88,USD
+216,WO-00131,Labour,Specialist call-out,1638.46,USD
+217,WO-00132,Labour,Specialist call-out,1041.04,USD
+218,WO-00132,Parts,Hydraulic seal kit,3134.56,USD
+219,WO-00132,Parts,Filter element,640.57,USD
+220,WO-00133,Parts,Hydraulic seal kit,120.89,USD
+221,WO-00133,Labour,Technician hours,1436.28,USD
+222,WO-00136,Labour,Technician hours,1955.2,USD
+223,WO-00136,Parts,Filter element,3940.19,USD
+224,WO-00136,Parts,Wiring harness,2839.31,USD
+225,WO-00137,Labour,Overtime labour,234.33,USD
+226,WO-00137,Labour,Specialist call-out,1108.75,USD
+227,WO-00137,Parts,Wiring harness,3156.34,USD
+228,WO-00138,Labour,Technician hours,1596.61,USD
+229,WO-00138,Parts,Wiring harness,3324.14,USD
+230,WO-00138,Parts,Wiring harness,4001.5,USD
+231,WO-00139,Parts,Bearing assembly,2805.14,USD
+232,WO-00140,Parts,Actuator unit,3186.69,USD
+233,WO-00140,Labour,Technician hours,362.97,USD
+234,WO-00141,Parts,Hydraulic seal kit,2938.22,USD
+235,WO-00141,Labour,Overtime labour,1755.15,USD
+236,WO-00143,Parts,Filter element,1476.06,USD
+237,WO-00143,Labour,Overtime labour,1392.43,USD
+238,WO-00143,Parts,Hydraulic seal kit,1709.02,USD
+239,WO-00144,Parts,Actuator unit,3741.54,USD
+240,WO-00144,Parts,Actuator unit,3068.47,USD
+241,WO-00145,Labour,Specialist call-out,1279.81,USD
+242,WO-00145,Labour,Overtime labour,1636.71,USD
+243,WO-00145,Subcontract,OEM engineering visit,1912.65,USD
+244,WO-00146,Parts,Bearing assembly,4045.86,USD
+245,WO-00146,Parts,Hydraulic seal kit,536.67,USD
+246,WO-00147,Parts,Filter element,2258.66,USD
+247,WO-00147,Labour,Overtime labour,1909.0,USD
+248,WO-00148,Parts,Actuator unit,4196.16,USD
+249,WO-00150,Parts,Bearing assembly,3332.81,USD
+250,WO-00150,Parts,Filter element,330.13,USD
+251,WO-00151,Labour,Overtime labour,1324.88,USD
+252,WO-00152,Labour,Overtime labour,1327.5,USD
+253,WO-00152,Parts,Actuator unit,3013.06,USD
+254,WO-00153,Labour,Specialist call-out,970.21,USD
+255,WO-00153,Labour,Specialist call-out,426.3,USD
+256,WO-00153,Parts,Bearing assembly,1704.97,USD
+257,WO-00154,Labour,Technician hours,381.84,USD
+258,WO-00154,Parts,Filter element,2802.9,USD
+259,WO-00155,Labour,Specialist call-out,446.33,USD
+260,WO-00156,Labour,Overtime labour,1818.95,USD
+261,WO-00157,Parts,Hydraulic seal kit,233.12,USD
+262,WO-00158,Labour,Specialist call-out,594.77,USD
+263,WO-00158,Parts,Actuator unit,3196.75,USD
+264,WO-00159,Parts,Wiring harness,708.35,USD
+265,WO-00159,Parts,Filter element,2424.71,USD
+266,WO-00159,Parts,Hydraulic seal kit,1850.3,USD
+267,WO-00161,Labour,Specialist call-out,1862.84,USD
+268,WO-00161,Parts,Actuator unit,4391.42,USD
+269,WO-00162,Labour,Specialist call-out,1000.43,USD
+270,WO-00162,Parts,Actuator unit,3017.65,USD
+271,WO-00163,Labour,Specialist call-out,743.5,USD
+272,WO-00163,Parts,Bearing assembly,4055.78,USD
+273,WO-00163,Parts,Actuator unit,570.1,USD
+274,WO-00164,Parts,Filter element,2034.58,USD
+275,WO-00165,Parts,Actuator unit,2903.84,USD
+276,WO-00167,Labour,Specialist call-out,471.86,USD
+277,WO-00167,Parts,Bearing assembly,3062.93,USD
+278,WO-00167,Subcontract,Avionics shop repair,3458.18,USD
+279,WO-00168,Parts,Actuator unit,2326.42,USD
+280,WO-00168,Parts,Wiring harness,1819.13,USD
+281,WO-00169,Labour,Specialist call-out,833.61,USD
+282,WO-00169,Parts,Wiring harness,1613.53,USD
+283,WO-00169,Subcontract,Avionics shop repair,1156.99,USD
+284,WO-00170,Labour,Overtime labour,1985.93,USD
+285,WO-00170,Labour,Specialist call-out,411.2,USD
+286,WO-00170,Labour,Specialist call-out,1484.35,USD
+287,WO-00171,Parts,Actuator unit,2710.81,USD
+288,WO-00171,Parts,Wiring harness,2162.03,USD
+289,WO-00172,Subcontract,OEM engineering visit,7498.65,USD
+290,WO-00172,Labour,Specialist call-out,268.05,USD
+291,WO-00172,Parts,Wiring harness,1894.59,USD
+292,WO-00173,Parts,Actuator unit,3410.83,USD
+293,WO-00173,Parts,Filter element,3753.66,USD
+294,WO-00173,Parts,Bearing assembly,237.94,USD
+295,WO-00175,Labour,Specialist call-out,1038.79,USD
+296,WO-00175,Labour,Technician hours,151.0,USD
+297,WO-00176,Parts,Wiring harness,4304.32,USD
+298,WO-00177,Parts,Wiring harness,1906.35,USD
+299,WO-00177,Parts,Filter element,176.57,USD
+300,WO-00177,Labour,Specialist call-out,1989.23,USD
+301,WO-00179,Labour,Specialist call-out,1204.02,USD
+302,WO-00180,Parts,Wiring harness,2844.58,USD
+303,WO-00180,Parts,Hydraulic seal kit,1710.75,USD
+304,WO-00180,Labour,Technician hours,1706.03,USD
+305,WO-00181,Labour,Technician hours,707.39,USD
+306,WO-00182,Parts,Filter element,285.35,USD
+307,WO-00182,Parts,Wiring harness,266.78,USD
+308,WO-00182,Parts,Hydraulic seal kit,2336.71,USD
+309,WO-00183,Parts,Hydraulic seal kit,2714.49,USD
+310,WO-00183,Parts,Wiring harness,3932.37,USD
+311,WO-00183,Labour,Overtime labour,1619.77,USD
+312,WO-00184,Labour,Overtime labour,788.79,USD
+313,WO-00184,Labour,Specialist call-out,1664.3,USD
+314,WO-00185,Parts,Wiring harness,1709.91,USD
+315,WO-00186,Parts,Filter element,505.76,USD
+316,WO-00186,Parts,Filter element,3750.5,USD
+317,WO-00187,Labour,Overtime labour,1707.53,USD
+318,WO-00187,Labour,Overtime labour,1536.98,USD
+319,WO-00187,Parts,Bearing assembly,4126.34,USD
+320,WO-00188,Labour,Technician hours,1011.08,USD
+321,WO-00189,Labour,Technician hours,1652.37,USD
+322,WO-00189,Labour,Overtime labour,1093.93,USD
+323,WO-00190,Parts,Wiring harness,177.98,USD
+324,WO-00190,Labour,Technician hours,344.56,USD
+325,WO-00191,Parts,Filter element,1418.06,USD
+326,WO-00191,Parts,Hydraulic seal kit,1940.38,USD
+327,WO-00191,Labour,Technician hours,247.7,USD
+328,WO-00192,Labour,Technician hours,473.07,USD
+329,WO-00192,Parts,Actuator unit,2689.63,USD
+330,WO-00193,Parts,Wiring harness,242.6,USD
+331,WO-00193,Parts,Hydraulic seal kit,3407.75,USD
+332,WO-00196,Subcontract,OEM engineering visit,4907.02,USD
+333,WO-00197,Parts,Wiring harness,180.2,USD
+334,WO-00198,Labour,Specialist call-out,1902.7,USD
+335,WO-00201,Parts,Actuator unit,3524.57,USD
+336,WO-00201,Labour,Overtime labour,1183.45,USD
+337,WO-00202,Labour,Technician hours,1104.79,USD
+338,WO-00203,Parts,Wiring harness,814.39,USD
+339,WO-00203,Labour,Technician hours,1949.8,USD
+340,WO-00203,Parts,Filter element,4146.12,USD
+341,WO-00205,Parts,Actuator unit,873.81,USD
+342,WO-00205,Labour,Technician hours,443.61,USD
+343,WO-00205,Parts,Bearing assembly,1937.21,USD
+344,WO-00206,Parts,Hydraulic seal kit,3438.27,USD
+345,WO-00206,Parts,Bearing assembly,540.91,USD
+346,WO-00206,Parts,Wiring harness,3186.05,USD
+347,WO-00207,Labour,Technician hours,723.42,USD
+348,WO-00207,Parts,Wiring harness,2083.41,USD
+349,WO-00207,Labour,Overtime labour,1954.74,USD
+350,WO-00208,Parts,Bearing assembly,1343.12,USD
+351,WO-00208,Labour,Technician hours,1727.87,USD
+352,WO-00209,Subcontract,Third-party NDT,1844.73,USD
+353,WO-00209,Subcontract,Third-party NDT,5540.72,USD
+354,WO-00210,Parts,Hydraulic seal kit,580.52,USD
+355,WO-00210,Parts,Actuator unit,4400.19,USD
+356,WO-00211,Subcontract,OEM engineering visit,985.33,USD
+357,WO-00211,Subcontract,Third-party NDT,2001.98,USD
+358,WO-00211,Labour,Specialist call-out,333.25,USD
+359,WO-00212,Labour,Specialist call-out,1553.15,USD
+360,WO-00212,Labour,Overtime labour,618.65,USD
+361,WO-00213,Subcontract,Third-party NDT,4068.7,USD
+362,WO-00213,Labour,Specialist call-out,1976.29,USD
+363,WO-00213,Labour,Technician hours,1559.2,USD
+364,WO-00214,Parts,Bearing assembly,2262.87,USD
+365,WO-00215,Subcontract,OEM engineering visit,1247.03,USD
+366,WO-00215,Parts,Hydraulic seal kit,2266.7,USD
+367,WO-00215,Parts,Filter element,1752.72,USD
+368,WO-00216,Parts,Wiring harness,2817.75,USD
+369,WO-00216,Parts,Hydraulic seal kit,2991.81,USD
+370,WO-00216,Labour,Specialist call-out,1606.19,USD
+371,WO-00217,Parts,Bearing assembly,2231.61,USD
+372,WO-00218,Labour,Overtime labour,1138.58,USD
+373,WO-00218,Subcontract,OEM engineering visit,7930.34,USD
+374,WO-00219,Parts,Wiring harness,3845.29,USD
+375,WO-00220,Parts,Hydraulic seal kit,837.07,USD
+376,WO-00220,Labour,Specialist call-out,1780.93,USD
+377,WO-00222,Parts,Filter element,1440.45,USD
+378,WO-00223,Parts,Hydraulic seal kit,2581.41,USD
+379,WO-00223,Parts,Actuator unit,3099.92,USD
+380,WO-00224,Parts,Actuator unit,3851.86,USD
+381,WO-00224,Labour,Specialist call-out,600.44,USD
+382,WO-00224,Labour,Specialist call-out,1272.19,USD
+383,WO-00225,Labour,Specialist call-out,708.92,USD
+384,WO-00225,Parts,Hydraulic seal kit,620.48,USD
+385,WO-00226,Parts,Actuator unit,169.7,USD
+386,WO-00226,Labour,Specialist call-out,823.09,USD
+387,WO-00227,Parts,Wiring harness,1883.09,USD
+388,WO-00227,Parts,Filter element,1151.88,USD
+389,WO-00229,Parts,Hydraulic seal kit,4101.23,USD
+390,WO-00229,Parts,Wiring harness,559.4,USD
+391,WO-00229,Parts,Actuator unit,1501.22,USD
+392,WO-00230,Labour,Specialist call-out,1179.29,USD
+393,WO-00230,Subcontract,Third-party NDT,653.02,USD
+394,WO-00231,Labour,Specialist call-out,817.7,USD
+395,WO-00231,Parts,Actuator unit,484.88,USD
+396,WO-00232,Parts,Filter element,1545.06,USD
+397,WO-00232,Labour,Overtime labour,745.12,USD
+398,WO-00233,Parts,Bearing assembly,947.83,USD
+399,WO-00233,Labour,Technician hours,1696.72,USD
+400,WO-00233,Labour,Specialist call-out,603.79,USD
+401,WO-00234,Subcontract,Third-party NDT,6534.52,USD
+402,WO-00234,Labour,Technician hours,1463.64,USD
+403,WO-00235,Parts,Wiring harness,1266.47,USD
+404,WO-00235,Labour,Overtime labour,1003.01,USD
+405,WO-00235,Parts,Hydraulic seal kit,2949.34,USD
+406,WO-00236,Labour,Specialist call-out,922.53,USD
+407,WO-00236,Labour,Technician hours,887.2,USD
+408,WO-00237,Labour,Specialist call-out,1375.96,USD
+409,WO-00237,Labour,Technician hours,1292.9,USD
+410,WO-00238,Labour,Overtime labour,1048.49,USD
+411,WO-00238,Labour,Overtime labour,1882.4,USD
+412,WO-00238,Parts,Actuator unit,3649.75,USD
+413,WO-00239,Subcontract,Avionics shop repair,5200.69,USD
+414,WO-00239,Labour,Specialist call-out,978.72,USD
+415,WO-00240,Parts,Wiring harness,3806.34,USD
+416,WO-00243,Parts,Hydraulic seal kit,2870.98,USD
+417,WO-00243,Labour,Specialist call-out,1665.05,USD
+418,WO-00244,Parts,Actuator unit,1100.78,USD
+419,WO-00244,Parts,Filter element,904.03,USD
+420,WO-00244,Parts,Wiring harness,2115.51,USD
+421,WO-00245,Subcontract,Third-party NDT,5351.92,USD
+422,WO-00245,Parts,Filter element,1263.57,USD
+423,WO-00245,Parts,Wiring harness,2981.08,USD
+424,WO-00246,Labour,Technician hours,1931.2,USD
+425,WO-00247,Labour,Technician hours,1733.21,USD
+426,WO-00247,Parts,Actuator unit,1376.01,USD
+427,WO-00248,Subcontract,Third-party NDT,7225.8,USD
+428,WO-00250,Labour,Technician hours,854.1,USD
+429,WO-00250,Labour,Technician hours,548.48,USD
+430,WO-00250,Labour,Overtime labour,1872.58,USD
+431,WO-00251,Labour,Overtime labour,1904.38,USD
+432,WO-00251,Subcontract,Third-party NDT,4223.38,USD
+433,WO-00251,Parts,Actuator unit,594.13,USD
+434,WO-00252,Parts,Actuator unit,3330.7,USD
+435,WO-00252,Labour,Overtime labour,548.28,USD
+436,WO-00253,Parts,Hydraulic seal kit,829.44,USD
+437,WO-00253,Subcontract,Third-party NDT,3562.82,USD
+438,WO-00254,Parts,Actuator unit,1717.44,USD
+439,WO-00254,Subcontract,Third-party NDT,4593.09,USD
+440,WO-00254,Parts,Filter element,4336.75,USD
+441,WO-00257,Parts,Wiring harness,3705.08,USD
+442,WO-00258,Labour,Overtime labour,166.14,USD
+443,WO-00259,Labour,Technician hours,1412.3,USD
+444,WO-00259,Labour,Technician hours,580.67,USD
+445,WO-00259,Parts,Wiring harness,4069.05,USD
+446,WO-00260,Parts,Filter element,3866.53,USD
+447,WO-00260,Parts,Bearing assembly,4177.41,USD
+448,WO-00260,Subcontract,Third-party NDT,1176.88,USD
+449,WO-00261,Parts,Filter element,4125.71,USD
+450,WO-00262,Parts,Bearing assembly,3562.46,USD
+451,WO-00262,Parts,Hydraulic seal kit,3713.23,USD
+452,WO-00262,Subcontract,Third-party NDT,6027.06,USD
+453,WO-00264,Labour,Technician hours,1666.36,USD
+454,WO-00264,Labour,Overtime labour,226.1,USD
+455,WO-00265,Labour,Overtime labour,1501.79,USD
+456,WO-00265,Parts,Hydraulic seal kit,3440.79,USD
+457,WO-00266,Labour,Overtime labour,942.47,USD
+458,WO-00266,Labour,Technician hours,861.26,USD
+459,WO-00266,Labour,Specialist call-out,1194.04,USD
+460,WO-00267,Parts,Actuator unit,3225.36,USD
+461,WO-00268,Labour,Overtime labour,1402.93,USD
+462,WO-00268,Labour,Specialist call-out,957.83,USD
+463,WO-00268,Labour,Technician hours,595.29,USD
+464,WO-00270,Labour,Specialist call-out,1619.1,USD
+465,WO-00270,Parts,Bearing assembly,1685.82,USD
+466,WO-00270,Parts,Bearing assembly,4254.17,USD
+467,WO-00271,Parts,Hydraulic seal kit,4157.85,USD
+468,WO-00271,Labour,Overtime labour,534.54,USD
+469,WO-00271,Parts,Bearing assembly,932.28,USD
+470,WO-00272,Labour,Technician hours,861.97,USD
+471,WO-00272,Parts,Wiring harness,714.17,USD
+472,WO-00272,Subcontract,OEM engineering visit,7604.33,USD
+473,WO-00274,Parts,Actuator unit,1986.46,USD
+474,WO-00275,Labour,Specialist call-out,325.17,USD
+475,WO-00275,Labour,Technician hours,1897.5,USD
+476,WO-00276,Parts,Bearing assembly,1750.23,USD
+477,WO-00276,Parts,Filter element,2720.37,USD
+478,WO-00277,Labour,Technician hours,894.83,USD
+479,WO-00277,Parts,Filter element,178.04,USD
+480,WO-00278,Parts,Bearing assembly,4087.61,USD
+481,WO-00278,Parts,Bearing assembly,431.54,USD
+482,WO-00279,Parts,Wiring harness,4386.08,USD
+483,WO-00279,Parts,Filter element,3224.34,USD
+484,WO-00280,Parts,Actuator unit,1190.2,USD
+485,WO-00280,Parts,Hydraulic seal kit,281.9,USD
+486,WO-00280,Subcontract,Third-party NDT,7311.7,USD
+487,WO-00282,Subcontract,Avionics shop repair,5821.74,USD
+488,WO-00282,Labour,Technician hours,581.95,USD
+489,WO-00282,Labour,Specialist call-out,1957.3,USD
+490,WO-00283,Parts,Actuator unit,233.01,USD
+491,WO-00283,Parts,Filter element,2291.67,USD
+492,WO-00283,Subcontract,Third-party NDT,1489.4,USD
+493,WO-00284,Labour,Specialist call-out,369.41,USD
+494,WO-00284,Parts,Hydraulic seal kit,4404.4,USD
+495,WO-00286,Labour,Specialist call-out,1520.86,USD
+496,WO-00286,Subcontract,Third-party NDT,7270.95,USD
+497,WO-00287,Labour,Specialist call-out,1082.25,USD
+498,WO-00287,Parts,Filter element,1454.17,USD
+499,WO-00289,Labour,Technician hours,1155.78,USD
+500,WO-00289,Subcontract,Avionics shop repair,6486.65,USD
+501,WO-00290,Parts,Hydraulic seal kit,1072.88,USD
+502,WO-00291,Parts,Filter element,3191.53,USD
+503,WO-00292,Parts,Bearing assembly,231.52,USD
+504,WO-00292,Parts,Actuator unit,2209.14,USD
+505,WO-00293,Parts,Filter element,600.26,USD
+506,WO-00293,Parts,Wiring harness,853.91,USD
+507,WO-00294,Labour,Specialist call-out,1170.17,USD
+508,WO-00295,Labour,Overtime labour,1996.21,USD
+509,WO-00295,Parts,Actuator unit,853.53,USD
+510,WO-00295,Subcontract,OEM engineering visit,6261.9,USD
+511,WO-00296,Parts,Wiring harness,165.53,USD
+512,WO-00296,Labour,Overtime labour,331.78,USD
+513,WO-00296,Parts,Hydraulic seal kit,3774.55,USD
+514,WO-00297,Parts,Bearing assembly,3746.61,USD
+515,WO-00298,Parts,Wiring harness,2694.21,USD
+516,WO-00298,Parts,Hydraulic seal kit,2969.97,USD
+517,WO-00298,Subcontract,Third-party NDT,7605.64,USD
+518,WO-00299,Subcontract,Avionics shop repair,1469.9,USD
+519,WO-00299,Labour,Overtime labour,637.61,USD
+520,WO-00299,Labour,Overtime labour,234.38,USD
+521,WO-00300,Parts,Bearing assembly,1185.48,USD
+522,WO-00300,Parts,Bearing assembly,446.89,USD
+523,WO-00300,Labour,Technician hours,838.16,USD
+524,WO-00301,Parts,Filter element,586.68,USD
+525,WO-00301,Parts,Bearing assembly,3324.71,USD
+526,WO-00302,Subcontract,Avionics shop repair,1484.65,USD
+527,WO-00302,Labour,Specialist call-out,1074.04,USD
+528,WO-00303,Parts,Bearing assembly,2170.16,USD
+529,WO-00303,Labour,Specialist call-out,271.42,USD
+530,WO-00304,Labour,Overtime labour,454.08,USD
+531,WO-00304,Labour,Technician hours,176.83,USD
+532,WO-00305,Subcontract,Avionics shop repair,2181.73,USD
+533,WO-00305,Labour,Technician hours,1868.27,USD
+534,WO-00306,Labour,Overtime labour,259.54,USD
+535,WO-00306,Parts,Hydraulic seal kit,4087.07,USD
+536,WO-00306,Parts,Filter element,4429.63,USD
+537,WO-00308,Subcontract,OEM engineering visit,4423.19,USD
+538,WO-00308,Parts,Hydraulic seal kit,2501.92,USD
+539,WO-00308,Subcontract,Avionics shop repair,1307.24,USD
+540,WO-00309,Parts,Bearing assembly,2990.81,USD
+541,WO-00309,Labour,Specialist call-out,775.37,USD
+542,WO-00310,Parts,Actuator unit,122.4,USD
+543,WO-00310,Labour,Specialist call-out,441.15,USD
+544,WO-00310,Parts,Bearing assembly,251.4,USD
+545,WO-00312,Labour,Specialist call-out,696.5,USD
+546,WO-00312,Labour,Overtime labour,954.9,USD
+547,WO-00313,Parts,Filter element,989.25,USD
+548,WO-00313,Parts,Actuator unit,1203.96,USD
+549,WO-00314,Parts,Actuator unit,129.72,USD
+550,WO-00314,Parts,Hydraulic seal kit,814.22,USD
+551,WO-00314,Parts,Bearing assembly,3916.07,USD
+552,WO-00315,Labour,Specialist call-out,675.32,USD
+553,WO-00315,Labour,Overtime labour,785.38,USD
+554,WO-00315,Labour,Overtime labour,1382.69,USD
+555,WO-00316,Parts,Filter element,111.75,USD
+556,WO-00316,Parts,Hydraulic seal kit,3147.34,USD
+557,WO-00318,Labour,Technician hours,1014.12,USD
+558,WO-00319,Labour,Specialist call-out,1699.97,USD
+559,WO-00320,Parts,Wiring harness,3475.26,USD
+560,WO-00320,Parts,Bearing assembly,147.08,USD
+561,WO-00320,Parts,Filter element,3337.58,USD
+562,WO-00321,Subcontract,Third-party NDT,647.21,USD
+563,WO-00321,Parts,Filter element,945.96,USD
+564,WO-00322,Labour,Specialist call-out,196.75,USD
+565,WO-00322,Parts,Bearing assembly,4408.72,USD
+566,WO-00322,Labour,Overtime labour,1199.46,USD
+567,WO-00323,Labour,Specialist call-out,170.33,USD
+568,WO-00323,Parts,Actuator unit,2680.12,USD
+569,WO-00323,Labour,Overtime labour,1819.64,USD
+570,WO-00324,Parts,Hydraulic seal kit,2400.97,USD
+571,WO-00324,Parts,Wiring harness,2511.99,USD
+572,WO-00325,Labour,Specialist call-out,1789.37,USD
+573,WO-00325,Parts,Actuator unit,4228.39,USD
+574,WO-00326,Parts,Bearing assembly,142.59,USD
+575,WO-00326,Parts,Filter element,2138.12,USD
+576,WO-00327,Parts,Filter element,2665.08,USD
+577,WO-00327,Labour,Overtime labour,1721.56,USD
+578,WO-00328,Labour,Technician hours,1778.03,USD
+579,WO-00328,Labour,Specialist call-out,1923.63,USD
+580,WO-00328,Labour,Overtime labour,1339.75,USD
+581,WO-00329,Labour,Technician hours,1281.5,USD
+582,WO-00329,Parts,Hydraulic seal kit,3018.4,USD
+583,WO-00330,Parts,Filter element,2745.58,USD
+584,WO-00331,Labour,Specialist call-out,676.94,USD
+585,WO-00332,Labour,Technician hours,781.69,USD
+586,WO-00333,Parts,Filter element,827.48,USD
+587,WO-00333,Labour,Overtime labour,160.74,USD
+588,WO-00334,Parts,Hydraulic seal kit,2798.16,USD
+589,WO-00335,Labour,Specialist call-out,589.86,USD
+590,WO-00338,Labour,Technician hours,1563.18,USD
+591,WO-00338,Labour,Technician hours,1721.48,USD
+592,WO-00339,Labour,Technician hours,1442.17,USD
+593,WO-00339,Subcontract,Third-party NDT,6492.4,USD
+594,WO-00339,Subcontract,OEM engineering visit,7809.95,USD
+595,WO-00342,Labour,Technician hours,1664.86,USD
+596,WO-00342,Parts,Hydraulic seal kit,793.36,USD
+597,WO-00342,Parts,Filter element,4103.89,USD
+598,WO-00343,Labour,Overtime labour,938.88,USD
+599,WO-00344,Parts,Hydraulic seal kit,736.62,USD
+600,WO-00344,Parts,Filter element,597.28,USD
+601,WO-00344,Parts,Bearing assembly,3473.03,USD
+602,WO-00345,Parts,Bearing assembly,1568.87,USD
+603,WO-00346,Parts,Wiring harness,1707.34,USD
+604,WO-00346,Labour,Specialist call-out,1295.94,USD
+605,WO-00346,Parts,Actuator unit,1926.66,USD
+606,WO-00347,Parts,Bearing assembly,1889.67,USD
+607,WO-00348,Labour,Overtime labour,1609.75,USD
+608,WO-00348,Parts,Hydraulic seal kit,2019.48,USD
+609,WO-00349,Labour,Overtime labour,1892.92,USD
+610,WO-00351,Parts,Bearing assembly,4419.65,USD
+611,WO-00354,Parts,Bearing assembly,3428.41,USD
+612,WO-00356,Subcontract,OEM engineering visit,7268.83,USD
+613,WO-00356,Parts,Actuator unit,4378.34,USD
+614,WO-00356,Parts,Actuator unit,3937.28,USD
+615,WO-00357,Labour,Specialist call-out,115.01,USD
+616,WO-00357,Parts,Actuator unit,2766.28,USD
+617,WO-00357,Parts,Bearing assembly,2035.54,USD
+618,WO-00358,Labour,Overtime labour,1597.85,USD
+619,WO-00359,Parts,Wiring harness,4000.15,USD
+620,WO-00359,Labour,Specialist call-out,1573.26,USD
+621,WO-00359,Labour,Technician hours,170.24,USD
+622,WO-00360,Parts,Filter element,2366.09,USD
+623,WO-00360,Labour,Technician hours,276.36,USD
+624,WO-00361,Parts,Wiring harness,3418.86,USD
+625,WO-00361,Parts,Hydraulic seal kit,4011.92,USD
+626,WO-00361,Labour,Specialist call-out,558.55,USD
+627,WO-00362,Labour,Overtime labour,309.84,USD
+628,WO-00362,Parts,Wiring harness,1205.92,USD
+629,WO-00363,Parts,Hydraulic seal kit,3416.69,USD
+630,WO-00363,Subcontract,Third-party NDT,2734.71,USD
+631,WO-00363,Labour,Specialist call-out,744.06,USD
+632,WO-00366,Labour,Overtime labour,1174.63,USD
+633,WO-00367,Labour,Overtime labour,544.29,USD
+634,WO-00367,Parts,Actuator unit,3042.33,USD
+635,WO-00367,Labour,Overtime labour,1501.27,USD
+636,WO-00368,Parts,Actuator unit,906.87,USD
+637,WO-00369,Parts,Filter element,3216.8,USD
+638,WO-00369,Labour,Technician hours,275.27,USD
+639,WO-00370,Labour,Specialist call-out,508.09,USD
+640,WO-00370,Parts,Actuator unit,1842.25,USD
+641,WO-00371,Labour,Specialist call-out,1756.83,USD
+642,WO-00371,Labour,Overtime labour,904.5,USD
+643,WO-00371,Parts,Bearing assembly,3306.14,USD
+644,WO-00372,Labour,Technician hours,1060.99,USD
+645,WO-00372,Parts,Bearing assembly,625.76,USD
+646,WO-00373,Labour,Overtime labour,324.31,USD
+647,WO-00373,Parts,Bearing assembly,195.1,USD
+648,WO-00373,Parts,Actuator unit,1693.53,USD
+649,WO-00374,Labour,Specialist call-out,309.64,USD
+650,WO-00375,Labour,Technician hours,1093.28,USD
+651,WO-00375,Parts,Wiring harness,4460.04,USD
+652,WO-00376,Parts,Hydraulic seal kit,3570.86,USD
+653,WO-00376,Parts,Actuator unit,1926.82,USD
+654,WO-00377,Labour,Technician hours,447.85,USD
+655,WO-00377,Labour,Technician hours,332.42,USD
+656,WO-00379,Parts,Hydraulic seal kit,1908.21,USD
+657,WO-00379,Labour,Overtime labour,959.51,USD
+658,WO-00380,Labour,Specialist call-out,1685.47,USD
+659,WO-00380,Labour,Technician hours,1547.71,USD
+660,WO-00381,Labour,Specialist call-out,1367.72,USD
+661,WO-00381,Parts,Wiring harness,447.45,USD
+662,WO-00381,Labour,Overtime labour,878.29,USD
+663,WO-00382,Subcontract,Third-party NDT,4557.46,USD
+664,WO-00383,Labour,Overtime labour,627.01,USD
+665,WO-00383,Parts,Filter element,3197.08,USD
+666,WO-00383,Labour,Overtime labour,686.81,USD
+667,WO-00384,Parts,Actuator unit,428.93,USD
+668,WO-00384,Subcontract,Avionics shop repair,4826.42,USD
+669,WO-00384,Parts,Actuator unit,2371.8,USD
+670,WO-00385,Labour,Technician hours,328.54,USD
+671,WO-00385,Subcontract,OEM engineering visit,7717.83,USD
+672,WO-00386,Labour,Technician hours,1676.41,USD
+673,WO-00386,Labour,Overtime labour,944.04,USD
+674,WO-00387,Labour,Specialist call-out,1218.9,USD
+675,WO-00387,Parts,Hydraulic seal kit,1562.81,USD
+676,WO-00387,Parts,Hydraulic seal kit,3875.44,USD
+677,WO-00388,Parts,Hydraulic seal kit,560.17,USD
+678,WO-00388,Parts,Filter element,1319.82,USD
+679,WO-00389,Parts,Hydraulic seal kit,736.31,USD
+680,WO-00390,Labour,Technician hours,1267.5,USD
+681,WO-00390,Parts,Hydraulic seal kit,3224.19,USD
+682,WO-00391,Parts,Wiring harness,683.95,USD
+683,WO-00391,Labour,Specialist call-out,813.48,USD
+684,WO-00392,Parts,Filter element,3397.0,USD
+685,WO-00393,Parts,Actuator unit,3398.14,USD
+686,WO-00393,Parts,Hydraulic seal kit,1248.33,USD
+687,WO-00393,Parts,Actuator unit,1861.49,USD
+688,WO-00394,Parts,Filter element,4116.12,USD
+689,WO-00394,Parts,Actuator unit,4337.46,USD
+690,WO-00395,Parts,Actuator unit,2949.4,USD
+691,WO-00395,Parts,Actuator unit,1860.02,USD
+692,WO-00395,Parts,Actuator unit,955.38,USD
+693,WO-00396,Parts,Filter element,3530.01,USD
+694,WO-00398,Subcontract,Avionics shop repair,3888.07,USD
+695,WO-00398,Parts,Bearing assembly,4326.96,USD
+696,WO-00398,Labour,Overtime labour,1946.96,USD
+697,WO-00399,Parts,Bearing assembly,1266.2,USD
+698,WO-00400,Labour,Specialist call-out,1998.56,USD
+699,WO-00400,Labour,Technician hours,1211.8,USD
+700,WO-00401,Parts,Filter element,3339.36,USD
+701,WO-00401,Labour,Specialist call-out,270.46,USD
+702,WO-00401,Labour,Technician hours,1477.64,USD
+703,WO-00402,Labour,Technician hours,1259.85,USD
+704,WO-00402,Subcontract,Third-party NDT,7129.49,USD
+705,WO-00403,Labour,Overtime labour,960.16,USD
+706,WO-00403,Parts,Wiring harness,1570.25,USD
+707,WO-00405,Subcontract,Third-party NDT,619.06,USD
+708,WO-00405,Labour,Overtime labour,1852.29,USD
+709,WO-00406,Parts,Hydraulic seal kit,3043.54,USD
+710,WO-00406,Parts,Bearing assembly,3442.97,USD
+711,WO-00406,Labour,Overtime labour,1337.41,USD
+712,WO-00407,Parts,Bearing assembly,3041.49,USD
+713,WO-00407,Parts,Bearing assembly,3732.23,USD
+714,WO-00407,Parts,Filter element,3784.2,USD
+715,WO-00408,Subcontract,OEM engineering visit,3970.19,USD
+716,WO-00408,Subcontract,Third-party NDT,570.22,USD
+717,WO-00408,Labour,Specialist call-out,1393.05,USD
+718,WO-00409,Parts,Hydraulic seal kit,3682.45,USD
+719,WO-00409,Labour,Overtime labour,520.18,USD
+720,WO-00409,Subcontract,Third-party NDT,775.97,USD
+721,WO-00410,Subcontract,Avionics shop repair,5045.2,USD
+722,WO-00410,Parts,Bearing assembly,543.71,USD
+723,WO-00411,Labour,Specialist call-out,423.91,USD
+724,WO-00411,Parts,Actuator unit,3041.18,USD
+725,WO-00412,Labour,Technician hours,1217.51,USD
+726,WO-00412,Labour,Technician hours,593.29,USD
+727,WO-00412,Labour,Technician hours,1773.91,USD
+728,WO-00413,Labour,Technician hours,1710.57,USD
+729,WO-00413,Parts,Actuator unit,2784.33,USD
+730,WO-00413,Labour,Specialist call-out,103.71,USD
+731,WO-00414,Labour,Overtime labour,198.54,USD
+732,WO-00414,Subcontract,Third-party NDT,6832.56,USD
+733,WO-00415,Parts,Actuator unit,2126.31,USD
+734,WO-00415,Parts,Hydraulic seal kit,3982.92,USD
+735,WO-00416,Parts,Bearing assembly,2419.23,USD
+736,WO-00417,Parts,Filter element,1539.44,USD
+737,WO-00417,Labour,Technician hours,1981.5,USD
+738,WO-00418,Subcontract,Third-party NDT,7683.32,USD
+739,WO-00419,Parts,Wiring harness,1433.09,USD
+740,WO-00422,Labour,Technician hours,1011.94,USD
+741,WO-00422,Labour,Overtime labour,1614.72,USD
+742,WO-00422,Subcontract,Third-party NDT,2353.65,USD
+743,WO-00423,Parts,Wiring harness,3754.7,USD
+744,WO-00423,Labour,Overtime labour,1608.81,USD
+745,WO-00424,Labour,Overtime labour,933.21,USD
+746,WO-00425,Labour,Overtime labour,337.17,USD
+747,WO-00426,Subcontract,Third-party NDT,2849.6,USD
+748,WO-00427,Parts,Filter element,325.91,USD
+749,WO-00427,Labour,Technician hours,672.8,USD
+750,WO-00427,Labour,Technician hours,293.47,USD
+751,WO-00428,Labour,Specialist call-out,1714.87,USD
+752,WO-00430,Parts,Bearing assembly,1087.35,USD
+753,WO-00430,Labour,Overtime labour,1285.62,USD
+754,WO-00431,Parts,Bearing assembly,3965.72,USD
+755,WO-00431,Labour,Specialist call-out,1336.75,USD
+756,WO-00432,Labour,Specialist call-out,1082.7,USD
+757,WO-00432,Labour,Technician hours,295.11,USD
+758,WO-00432,Labour,Technician hours,1226.48,USD
+759,WO-00433,Subcontract,OEM engineering visit,5280.23,USD
+760,WO-00434,Parts,Bearing assembly,3274.57,USD
+761,WO-00434,Parts,Filter element,662.64,USD
+762,WO-00437,Parts,Wiring harness,2651.12,USD
+763,WO-00438,Subcontract,Third-party NDT,2833.91,USD
+764,WO-00438,Labour,Technician hours,380.08,USD
+765,WO-00438,Parts,Wiring harness,1345.23,USD
+766,WO-00439,Labour,Overtime labour,1388.77,USD
+767,WO-00440,Parts,Actuator unit,3871.22,USD
+768,WO-00441,Parts,Filter element,2900.47,USD
+769,WO-00441,Parts,Hydraulic seal kit,1569.91,USD
+770,WO-00443,Parts,Bearing assembly,2718.94,USD
+771,WO-00443,Parts,Actuator unit,2569.13,USD
+772,WO-00443,Parts,Wiring harness,1913.19,USD
+773,WO-00444,Parts,Hydraulic seal kit,2256.89,USD
+774,WO-00445,Labour,Overtime labour,537.52,USD
+775,WO-00447,Parts,Bearing assembly,3318.91,USD
+776,WO-00447,Subcontract,Third-party NDT,6554.53,USD
+777,WO-00447,Parts,Bearing assembly,869.89,USD
+778,WO-00448,Parts,Hydraulic seal kit,1642.6,USD
+779,WO-00449,Parts,Wiring harness,2009.82,USD
+780,WO-00449,Labour,Specialist call-out,183.42,USD
+781,WO-00449,Parts,Filter element,1314.25,USD
+782,WO-00450,Labour,Overtime labour,431.14,USD
+783,WO-00452,Parts,Filter element,145.64,USD
+784,WO-00452,Labour,Technician hours,139.89,USD
+785,WO-00452,Labour,Specialist call-out,1344.25,USD
+786,WO-00453,Parts,Filter element,1407.57,USD
+787,WO-00454,Parts,Wiring harness,2991.04,USD
+788,WO-00455,Subcontract,Avionics shop repair,7112.48,USD
+789,WO-00455,Labour,Technician hours,325.14,USD
+790,WO-00455,Labour,Technician hours,1610.31,USD
+791,WO-00458,Labour,Overtime labour,811.09,USD
+792,WO-00459,Parts,Filter element,4148.51,USD
+793,WO-00459,Labour,Overtime labour,459.29,USD
+794,WO-00459,Labour,Technician hours,722.59,USD
+795,WO-00460,Labour,Specialist call-out,1758.42,USD
+796,WO-00461,Subcontract,Third-party NDT,2069.28,USD
+797,WO-00461,Parts,Bearing assembly,3569.94,USD
+798,WO-00461,Labour,Technician hours,1066.37,USD
+799,WO-00462,Labour,Specialist call-out,1047.32,USD
+800,WO-00462,Parts,Wiring harness,3220.57,USD
+801,WO-00462,Labour,Specialist call-out,1459.73,USD
+802,WO-00463,Parts,Actuator unit,1834.21,USD
+803,WO-00463,Subcontract,Avionics shop repair,5373.03,USD
+804,WO-00464,Parts,Filter element,2061.76,USD
+805,WO-00466,Parts,Wiring harness,1941.35,USD
+806,WO-00467,Labour,Specialist call-out,583.61,USD
+807,WO-00467,Parts,Hydraulic seal kit,1362.96,USD
+808,WO-00468,Parts,Actuator unit,233.09,USD
+809,WO-00468,Labour,Specialist call-out,909.59,USD
+810,WO-00468,Parts,Bearing assembly,1685.43,USD
+811,WO-00469,Parts,Bearing assembly,160.0,USD
+812,WO-00469,Parts,Wiring harness,2921.83,USD
+813,WO-00471,Subcontract,Third-party NDT,6819.53,USD
+814,WO-00471,Labour,Overtime labour,248.5,USD
+815,WO-00472,Subcontract,OEM engineering visit,1389.41,USD
+816,WO-00472,Parts,Actuator unit,941.36,USD
+817,WO-00473,Labour,Specialist call-out,675.16,USD
+818,WO-00474,Labour,Technician hours,1440.72,USD
+819,WO-00474,Subcontract,Avionics shop repair,6048.66,USD
+820,WO-00474,Subcontract,OEM engineering visit,6275.57,USD
+821,WO-00476,Labour,Specialist call-out,1897.05,USD
+822,WO-00476,Labour,Overtime labour,122.59,USD
+823,WO-00477,Labour,Technician hours,1744.39,USD
+824,WO-00477,Parts,Filter element,2161.25,USD
+825,WO-00477,Labour,Overtime labour,1539.48,USD
+826,WO-00478,Labour,Specialist call-out,1604.64,USD
+827,WO-00478,Parts,Filter element,1958.13,USD
+828,WO-00478,Subcontract,Third-party NDT,2071.89,USD
+829,WO-00479,Labour,Technician hours,811.93,USD
+830,WO-00479,Labour,Technician hours,680.59,USD
+831,WO-00480,Parts,Wiring harness,1562.21,USD
+832,WO-00480,Parts,Bearing assembly,3444.65,USD
+833,WO-00480,Labour,Specialist call-out,719.55,USD
+834,WO-00481,Labour,Technician hours,1852.07,USD
+835,WO-00482,Subcontract,Third-party NDT,4761.43,USD
+836,WO-00483,Subcontract,Avionics shop repair,7002.09,USD
+837,WO-00483,Subcontract,OEM engineering visit,7615.2,USD
+838,WO-00483,Parts,Bearing assembly,888.11,USD
+839,WO-00484,Parts,Bearing assembly,2893.56,USD
+840,WO-00485,Parts,Hydraulic seal kit,3053.24,USD
+841,WO-00485,Parts,Actuator unit,2224.33,USD
+842,WO-00487,Parts,Bearing assembly,1312.99,USD
+843,WO-00488,Parts,Actuator unit,361.41,USD
+844,WO-00489,Parts,Hydraulic seal kit,814.62,USD
+845,WO-00491,Parts,Hydraulic seal kit,624.66,USD
+846,WO-00491,Parts,Hydraulic seal kit,1781.02,USD
+847,WO-00492,Parts,Filter element,1428.42,USD
+848,WO-00493,Labour,Technician hours,1247.05,USD
+849,WO-00493,Subcontract,Avionics shop repair,2022.3,USD
+850,WO-00493,Labour,Specialist call-out,623.34,USD
+851,WO-00494,Subcontract,Third-party NDT,979.78,USD
+852,WO-00495,Labour,Technician hours,1099.13,USD
+853,WO-00495,Subcontract,Third-party NDT,3951.53,USD
+854,WO-00496,Parts,Hydraulic seal kit,1331.21,USD
+855,WO-00496,Labour,Specialist call-out,758.89,USD
+856,WO-00496,Labour,Specialist call-out,843.07,USD
+857,WO-00497,Parts,Filter element,4054.84,USD
+858,WO-00498,Parts,Bearing assembly,4103.21,USD
+859,WO-00498,Parts,Actuator unit,475.13,USD
+860,WO-00498,Labour,Technician hours,555.42,USD
+861,WO-00500,Parts,Actuator unit,1348.91,USD

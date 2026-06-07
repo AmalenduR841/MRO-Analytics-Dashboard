@@ -1,0 +1,31 @@
+asset_id,asset_name,asset_type,location,manufacturer,model,purchase_year,status
+AST-0001,Boeing E175 #001,Aircraft,Hangar B,Boeing,E175,2013,Active
+AST-0002,Embraer A350-900 #002,Aircraft,Hangar A,Embraer,A350-900,2019,Active
+AST-0003,Boeing A320neo #003,Aircraft,Hangar B,Boeing,A320neo,2018,Active
+AST-0004,Charlatte GPU-90 #004,GSE,Hangar B,Charlatte,GPU-90,2017,Active
+AST-0005,Boeing 777-300ER #005,Aircraft,Apron,Boeing,777-300ER,2014,Active
+AST-0006,Toyota Land Cruiser #006,Vehicle,Workshop,Toyota,Land Cruiser,2011,Active
+AST-0007,Volvo Transit Van #007,Vehicle,Hangar A,Volvo,Transit Van,2021,Active
+AST-0008,Airbus 737-800 #008,Aircraft,Remote Bay,Airbus,737-800,2014,Under Maintenance
+AST-0009,Volvo Land Cruiser #009,Vehicle,Hangar A,Volvo,Land Cruiser,2010,Active
+AST-0010,Toyota Land Cruiser #010,Vehicle,Hangar A,Toyota,Land Cruiser,2016,Active
+AST-0011,Toyota Transit Van #011,Vehicle,Apron,Toyota,Transit Van,2013,Active
+AST-0012,Embraer A320neo #012,Aircraft,Remote Bay,Embraer,A320neo,2021,Active
+AST-0013,Komatsu PC210 Excavator #013,Machinery,Remote Bay,Komatsu,PC210 Excavator,2013,Active
+AST-0014,Boeing 737-800 #014,Aircraft,Apron,Boeing,737-800,2016,Active
+AST-0015,Charlatte Belt Loader BL5 #015,GSE,Hangar B,Charlatte,Belt Loader BL5,2020,Active
+AST-0016,Caterpillar PC210 Excavator #016,Machinery,Hangar B,Caterpillar,PC210 Excavator,2013,Inactive
+AST-0017,Volvo FM 410 #017,Vehicle,Workshop,Volvo,FM 410,2019,Active
+AST-0018,JBT GPU-90 #018,GSE,Hangar A,JBT,GPU-90,2022,Active
+AST-0019,Boeing A320neo #019,Aircraft,Workshop,Boeing,A320neo,2019,Active
+AST-0020,Atlas Copco PC210 Excavator #020,Machinery,Remote Bay,Atlas Copco,PC210 Excavator,2014,Under Maintenance
+AST-0021,Embraer 737-800 #021,Aircraft,Remote Bay,Embraer,737-800,2022,Active
+AST-0022,Toyota Transit Van #022,Vehicle,Workshop,Toyota,Transit Van,2012,Active
+AST-0023,Volvo Land Cruiser #023,Vehicle,Remote Bay,Volvo,Land Cruiser,2011,Under Maintenance
+AST-0024,Volvo FM 410 #024,Vehicle,Remote Bay,Volvo,FM 410,2013,Active
+AST-0025,Charlatte Jetway X1 #025,GSE,Remote Bay,Charlatte,Jetway X1,2015,Active
+AST-0026,Airbus E175 #026,Aircraft,Hangar B,Airbus,E175,2010,Active
+AST-0027,Boeing 777-300ER #027,Aircraft,Hangar A,Boeing,777-300ER,2022,Active
+AST-0028,JBT GPU-90 #028,GSE,Remote Bay,JBT,GPU-90,2012,Active
+AST-0029,Caterpillar XAS 185 #029,Machinery,Hangar B,Caterpillar,XAS 185,2021,Active
+AST-0030,Ford FM 410 #030,Vehicle,Workshop,Ford,FM 410,2011,Active

@@ -1,0 +1,501 @@
+wo_id,asset_id,technician_id,wo_type,priority,status,description,created_at,started_at,completed_at,downtime_hours,failure_code
+WO-00001,AST-0010,TECH-0014,Corrective,Low,Completed,Engine vibration fix,2023-03-26 12:00:00,2023-03-26 12:30:58,2023-04-01 18:51:26,94.43,ELE-001
+WO-00002,AST-0024,,Preventive,High,Open,Filter replacement,2023-10-05 06:00:00,,,,
+WO-00003,AST-0003,TECH-0008,Preventive,Medium,Completed,Torque check,2023-09-29 08:00:00,2023-09-29 08:55:35,2023-10-01 21:17:56,3.31,
+WO-00004,AST-0014,TECH-0019,Preventive,Low,In Progress,Filter replacement,2023-11-01 06:00:00,2023-11-01 11:08:43,,,
+WO-00005,AST-0025,TECH-0003,Emergency,High,Completed,AOG engine fault,2023-05-03 10:00:00,2023-05-03 13:28:06,2023-05-03 23:40:06,2.58,AVN-001
+WO-00006,AST-0017,,Corrective,Medium,Open,Landing gear snag,2023-10-03 09:00:00,,,,ELE-001
+WO-00007,AST-0026,TECH-0017,Emergency,Low,Completed,AOG engine fault,2023-07-09 10:00:00,2023-07-09 11:40:59,2023-07-23 20:58:30,168.97,
+WO-00008,AST-0020,TECH-0007,Inspection,High,Completed,NDT check,2023-03-10 10:00:00,2023-03-10 11:21:56,2023-03-11 02:07:25,3.22,
+WO-00009,AST-0009,TECH-0002,Preventive,Medium,Completed,Scheduled 500-hr inspection,2023-09-08 10:00:00,2023-09-08 17:17:24,2023-09-12 03:15:29,27.78,
+WO-00010,AST-0023,TECH-0014,Preventive,High,Cancelled,Scheduled 500-hr inspection,2023-03-24 17:00:00,2023-03-24 20:48:49,,,
+WO-00011,AST-0002,TECH-0010,Preventive,Low,Completed,Filter replacement,2023-03-18 14:00:00,2023-03-18 14:46:12,2023-03-22 21:59:18,35.49,
+WO-00012,AST-0028,TECH-0014,Inspection,Low,Completed,Borescope inspection,2023-07-03 09:00:00,2023-07-03 14:36:55,2023-07-06 20:46:44,35.01,
+WO-00013,AST-0006,TECH-0011,Emergency,High,In Progress,Fire warning system fault,2023-04-01 20:00:00,2023-04-01 23:35:31,,,
+WO-00014,AST-0013,TECH-0002,Corrective,Medium,In Progress,Engine vibration fix,2023-03-23 18:00:00,2023-03-23 23:45:34,,,ELE-002
+WO-00015,AST-0025,TECH-0009,Preventive,Low,Completed,Filter replacement,2023-04-27 09:00:00,2023-04-27 09:40:38,2023-04-30 12:38:18,51.83,
+WO-00016,AST-0004,TECH-0009,Corrective,Medium,Cancelled,Electrical fault trace,2023-10-02 11:00:00,2023-10-02 18:32:39,,,STR-002
+WO-00017,AST-0011,TECH-0014,Emergency,High,In Progress,AOG engine fault,2023-08-11 11:00:00,2023-08-11 16:57:50,,,MEC-002
+WO-00018,AST-0017,,Inspection,High,Open,Borescope inspection,2023-08-12 06:00:00,,,,
+WO-00019,AST-0010,TECH-0014,Corrective,Critical,Completed,Landing gear snag,2023-06-19 15:00:00,2023-06-19 17:51:15,2023-06-20 02:10:22,2.0,MEC-002
+WO-00020,AST-0029,TECH-0006,Corrective,Medium,In Progress,Landing gear snag,2023-12-07 12:00:00,2023-12-07 17:34:47,,,MEC-002
+WO-00021,AST-0007,TECH-0017,Corrective,Critical,Completed,Engine vibration fix,2023-08-09 18:00:00,2023-08-09 22:50:59,2023-08-10 01:02:41,0.78,
+WO-00022,AST-0021,TECH-0020,Emergency,Low,In Progress,Critical avionics failure,2023-02-13 10:00:00,2023-02-13 14:21:57,,,HYD-002
+WO-00023,AST-0028,TECH-0003,Inspection,Low,Completed,Annual compliance check,2023-04-26 18:00:00,2023-04-26 19:59:36,2023-04-29 12:26:37,24.5,
+WO-00024,AST-0008,TECH-0005,Corrective,Medium,In Progress,Hydraulic leak repair,2023-12-23 12:00:00,2023-12-23 16:12:28,,,
+WO-00025,AST-0030,TECH-0004,Inspection,Low,Completed,Annual compliance check,2023-04-23 08:00:00,2023-04-23 14:31:50,2023-04-27 10:39:50,41.08,
+WO-00026,AST-0029,TECH-0017,Preventive,Medium,Completed,Torque check,2023-10-14 15:00:00,2023-10-14 17:52:47,2023-10-19 17:40:39,78.11,
+WO-00027,AST-0017,TECH-0016,Inspection,Medium,Completed,Borescope inspection,2023-09-01 13:00:00,2023-09-01 15:26:38,2023-09-03 16:16:39,29.92,
+WO-00028,AST-0023,TECH-0005,Preventive,Critical,Completed,Lubrication service,2023-05-20 11:00:00,2023-05-20 13:53:52,2023-05-20 15:06:46,0.22,
+WO-00029,AST-0023,TECH-0001,Preventive,Medium,Completed,Torque check,2023-08-01 06:00:00,2023-08-01 08:03:04,2023-08-03 23:18:45,29.56,
+WO-00030,AST-0026,TECH-0020,Corrective,Low,Completed,Electrical fault trace,2023-07-19 19:00:00,2023-07-20 02:11:14,2023-08-01 17:49:08,178.45,AVN-001
+WO-00031,AST-0022,,Preventive,Medium,Open,Torque check,2023-06-22 16:00:00,,,,
+WO-00032,AST-0021,TECH-0014,Inspection,Low,Completed,Borescope inspection,2023-11-15 14:00:00,2023-11-15 14:42:08,2023-11-19 23:24:56,2.27,
+WO-00033,AST-0027,TECH-0014,Inspection,High,Completed,NDT check,2023-06-17 09:00:00,2023-06-17 12:54:36,2023-06-18 09:32:37,4.59,
+WO-00034,AST-0001,TECH-0008,Inspection,Medium,Completed,Borescope inspection,2023-01-27 11:00:00,2023-01-27 13:10:53,2023-01-30 07:16:30,2.13,
+WO-00035,AST-0007,TECH-0015,Inspection,Medium,In Progress,NDT check,2023-08-31 16:00:00,2023-08-31 17:21:28,,,
+WO-00036,AST-0010,TECH-0019,Inspection,High,Completed,Annual compliance check,2023-02-28 18:00:00,2023-03-01 00:38:41,2023-03-02 04:32:10,0.57,
+WO-00037,AST-0021,,Corrective,Medium,Open,Electrical fault trace,2023-12-20 19:00:00,,,,HYD-002
+WO-00038,AST-0012,TECH-0003,Corrective,High,Completed,Landing gear snag,2023-03-03 18:00:00,2023-03-04 01:52:43,2023-03-05 14:22:41,12.51,HYD-001
+WO-00039,AST-0015,TECH-0005,Inspection,Low,In Progress,Annual compliance check,2023-07-05 16:00:00,2023-07-05 23:11:12,,,
+WO-00040,AST-0019,TECH-0009,Preventive,Medium,Completed,Filter replacement,2023-11-12 18:00:00,2023-11-13 01:23:49,2023-11-18 03:36:12,80.73,
+WO-00041,AST-0025,,Inspection,Low,Open,Annual compliance check,2023-08-19 09:00:00,,,,
+WO-00042,AST-0009,TECH-0020,Corrective,Medium,Completed,Landing gear snag,2023-09-11 19:00:00,2023-09-11 21:56:15,2023-09-13 07:29:53,6.94,STR-001
+WO-00043,AST-0018,,Preventive,Low,Open,Lubrication service,2023-07-28 13:00:00,,,,
+WO-00044,AST-0012,TECH-0016,Corrective,Medium,Completed,Landing gear snag,2023-01-09 07:00:00,2023-01-09 09:42:24,2023-01-10 13:14:42,14.63,MEC-002
+WO-00045,AST-0024,TECH-0018,Emergency,Medium,Completed,Emergency hydraulic failure,2023-08-21 10:00:00,2023-08-21 12:47:58,2023-08-23 18:08:56,13.47,ELE-002
+WO-00046,AST-0006,TECH-0010,Preventive,Medium,Completed,Scheduled 500-hr inspection,2023-09-26 15:00:00,2023-09-26 17:37:20,2023-09-27 18:30:17,4.53,
+WO-00047,AST-0010,,Inspection,High,Open,Borescope inspection,2023-01-28 14:00:00,,,,
+WO-00048,AST-0016,TECH-0015,Corrective,Low,In Progress,Landing gear snag,2023-01-07 15:00:00,2023-01-07 17:37:57,,,ELE-001
+WO-00049,AST-0005,TECH-0005,Emergency,High,Completed,Critical avionics failure,2023-02-28 19:00:00,2023-02-28 19:59:24,2023-03-01 11:10:35,8.34,HYD-002
+WO-00050,AST-0015,TECH-0010,Emergency,High,Completed,Fire warning system fault,2023-11-07 15:00:00,2023-11-07 21:25:50,2023-11-08 11:38:12,5.12,ELE-003
+WO-00051,AST-0007,TECH-0009,Corrective,Critical,Cancelled,Hydraulic leak repair,2023-02-20 18:00:00,2023-02-20 20:03:30,,,ELE-001
+WO-00052,AST-0016,TECH-0010,Preventive,Medium,In Progress,Scheduled 500-hr inspection,2023-07-29 13:00:00,2023-07-29 18:40:13,,,
+WO-00053,AST-0022,TECH-0007,Preventive,Medium,Completed,Torque check,2023-08-21 07:00:00,2023-08-21 12:39:19,2023-08-28 01:44:26,78.55,
+WO-00054,AST-0002,TECH-0006,Preventive,High,In Progress,Filter replacement,2023-05-17 19:00:00,2023-05-17 20:34:00,,,
+WO-00055,AST-0018,TECH-0016,Corrective,Low,Completed,Engine vibration fix,2023-08-13 07:00:00,2023-08-13 11:00:54,2023-08-16 23:19:52,18.36,HYD-002
+WO-00056,AST-0019,TECH-0001,Corrective,Low,Completed,Landing gear snag,2023-11-06 10:00:00,2023-11-06 10:41:38,2023-11-11 09:15:20,81.62,STR-002
+WO-00057,AST-0016,TECH-0003,Preventive,Low,Completed,Torque check,2023-11-30 13:00:00,2023-11-30 20:22:13,2023-12-05 07:43:19,54.52,
+WO-00058,AST-0025,TECH-0018,Preventive,High,Completed,Scheduled 500-hr inspection,2023-03-24 11:00:00,2023-03-24 14:35:14,2023-03-25 07:18:49,5.36,
+WO-00059,AST-0014,TECH-0002,Corrective,High,Completed,Electrical fault trace,2023-07-26 19:00:00,2023-07-26 23:21:34,2023-07-28 23:02:06,20.69,STR-001
+WO-00060,AST-0016,TECH-0004,Corrective,Low,Completed,Hydraulic leak repair,2023-01-27 09:00:00,2023-01-27 11:30:10,2023-01-30 09:23:40,49.25,
+WO-00061,AST-0003,TECH-0008,Corrective,High,In Progress,Hydraulic leak repair,2023-10-10 06:00:00,2023-10-10 10:38:30,,,AVN-001
+WO-00062,AST-0014,TECH-0016,Emergency,Medium,In Progress,Fire warning system fault,2023-05-30 14:00:00,2023-05-30 19:47:26,,,ELE-002
+WO-00063,AST-0005,TECH-0003,Corrective,High,In Progress,Landing gear snag,2023-11-03 14:00:00,2023-11-03 20:05:49,,,
+WO-00064,AST-0022,TECH-0016,Inspection,Medium,Completed,Borescope inspection,2023-09-17 10:00:00,2023-09-17 16:39:14,2023-09-18 23:10:34,14.33,
+WO-00065,AST-0019,TECH-0013,Corrective,Medium,Completed,Electrical fault trace,2023-10-06 12:00:00,2023-10-06 15:54:54,2023-10-07 16:30:08,13.72,
+WO-00066,AST-0002,TECH-0005,Corrective,High,Completed,Landing gear snag,2023-07-15 12:00:00,2023-07-15 19:54:47,2023-07-17 19:23:08,5.78,HYD-002
+WO-00067,AST-0016,TECH-0009,Inspection,Medium,Completed,NDT check,2023-08-22 06:00:00,2023-08-22 11:55:05,2023-08-24 13:40:35,6.14,
+WO-00068,AST-0022,,Corrective,Medium,Open,Engine vibration fix,2023-06-18 19:00:00,,,,MEC-001
+WO-00069,AST-0008,TECH-0003,Corrective,Low,Completed,Engine vibration fix,2023-10-05 06:00:00,2023-10-05 11:07:51,2023-10-10 10:57:55,27.55,HYD-002
+WO-00070,AST-0001,TECH-0002,Inspection,Medium,In Progress,NDT check,2023-03-27 17:00:00,2023-03-27 19:44:45,,,
+WO-00071,AST-0003,TECH-0020,Inspection,High,Completed,Annual compliance check,2023-03-16 09:00:00,2023-03-16 13:29:01,2023-03-17 08:32:56,2.59,
+WO-00072,AST-0026,TECH-0015,Corrective,High,Completed,Landing gear snag,2023-03-15 09:00:00,2023-03-15 12:57:31,2023-03-15 22:21:16,0.07,
+WO-00073,AST-0007,TECH-0013,Corrective,Critical,Completed,Engine vibration fix,2023-10-28 10:00:00,2023-10-28 15:17:31,2023-10-28 16:50:32,1.05,HYD-002
+WO-00074,AST-0028,TECH-0002,Preventive,Medium,Completed,Torque check,2023-12-25 10:00:00,2023-12-25 10:39:52,2023-12-30 05:24:41,0.74,
+WO-00075,AST-0025,TECH-0005,Inspection,Low,Completed,Pre-flight walkaround,2023-04-28 15:00:00,2023-04-28 21:30:52,2023-05-01 07:04:16,11.54,
+WO-00076,AST-0024,TECH-0014,Emergency,Medium,Completed,Emergency hydraulic failure,2023-08-14 06:00:00,2023-08-14 10:50:48,2023-08-15 06:06:50,4.55,ELE-002
+WO-00077,AST-0027,TECH-0006,Preventive,Medium,Cancelled,Filter replacement,2023-09-29 14:00:00,2023-09-29 21:21:04,,,
+WO-00078,AST-0026,TECH-0004,Emergency,Low,Cancelled,Fire warning system fault,2023-06-01 17:00:00,2023-06-02 00:01:40,,,HYD-002
+WO-00079,AST-0001,TECH-0009,Preventive,Low,Completed,Scheduled 500-hr inspection,2023-12-12 12:00:00,2023-12-12 19:45:16,2023-12-23 15:55:47,164.57,
+WO-00080,AST-0001,TECH-0020,Corrective,Medium,Completed,Landing gear snag,2023-10-27 12:00:00,2023-10-27 18:40:05,2023-10-31 06:22:10,15.66,STR-002
+WO-00081,AST-0016,TECH-0004,Preventive,Critical,Completed,Scheduled 500-hr inspection,2023-12-25 10:00:00,2023-12-25 15:22:09,2023-12-25 16:18:19,0.03,
+WO-00082,AST-0024,TECH-0005,Preventive,Medium,Completed,Torque check,2023-07-09 16:00:00,2023-07-09 23:37:13,2023-07-11 19:11:26,20.47,
+WO-00083,AST-0012,TECH-0004,Corrective,Low,Completed,Landing gear snag,2023-05-24 06:00:00,2023-05-24 11:40:37,2023-05-28 05:18:31,16.93,STR-001
+WO-00084,AST-0004,,Emergency,Medium,Open,Fire warning system fault,2023-05-22 09:00:00,,,,HYD-002
+WO-00085,AST-0003,TECH-0018,Corrective,Medium,Completed,Electrical fault trace,2023-01-11 06:00:00,2023-01-11 12:24:03,2023-01-12 09:36:03,9.58,STR-002
+WO-00086,AST-0005,TECH-0018,Preventive,Low,Completed,Filter replacement,2023-03-17 18:00:00,2023-03-18 01:15:14,2023-03-23 23:00:47,16.41,
+WO-00087,AST-0009,TECH-0002,Inspection,High,Completed,Borescope inspection,2023-03-09 06:00:00,2023-03-09 09:11:12,2023-03-11 06:23:07,0.57,
+WO-00088,AST-0020,TECH-0002,Inspection,Medium,Completed,NDT check,2023-09-01 13:00:00,2023-09-01 19:20:06,2023-09-02 15:37:26,8.18,
+WO-00089,AST-0013,,Corrective,Low,Open,Engine vibration fix,2023-09-03 19:00:00,,,,
+WO-00090,AST-0018,TECH-0011,Preventive,Medium,Completed,Torque check,2023-02-11 11:00:00,2023-02-11 16:03:44,2023-02-12 21:18:47,14.81,
+WO-00091,AST-0025,TECH-0018,Emergency,Medium,Completed,Emergency hydraulic failure,2023-11-06 12:00:00,2023-11-06 13:14:37,2023-11-09 01:41:40,31.48,MEC-002
+WO-00092,AST-0012,TECH-0005,Corrective,High,Completed,Engine vibration fix,2023-08-21 12:00:00,2023-08-21 15:37:11,2023-08-22 04:06:06,6.64,HYD-002
+WO-00093,AST-0022,TECH-0004,Preventive,Critical,Completed,Torque check,2023-07-10 18:00:00,2023-07-10 19:28:33,2023-07-10 23:08:44,1.65,
+WO-00094,AST-0022,TECH-0016,Corrective,Medium,Completed,Electrical fault trace,2023-01-27 10:00:00,2023-01-27 15:00:11,2023-01-29 12:36:38,7.76,HYD-002
+WO-00095,AST-0014,TECH-0018,Corrective,Medium,In Progress,Hydraulic leak repair,2023-05-23 15:00:00,2023-05-23 17:11:46,,,STR-002
+WO-00096,AST-0028,TECH-0005,Emergency,Low,Completed,Fire warning system fault,2023-04-03 10:00:00,2023-04-03 15:46:12,2023-04-06 20:11:17,0.37,HYD-002
+WO-00097,AST-0013,,Preventive,Medium,Open,Torque check,2023-09-29 09:00:00,,,,
+WO-00098,AST-0025,TECH-0020,Corrective,High,Completed,Hydraulic leak repair,2023-06-16 18:00:00,2023-06-17 01:33:38,2023-06-17 22:15:38,2.58,
+WO-00099,AST-0004,TECH-0010,Preventive,Medium,Completed,Torque check,2023-11-07 13:00:00,2023-11-07 16:36:22,2023-11-09 10:40:23,11.62,
+WO-00100,AST-0010,TECH-0007,Corrective,High,In Progress,Electrical fault trace,2023-11-03 06:00:00,2023-11-03 06:33:27,,,
+WO-00101,AST-0005,,Preventive,High,Open,Torque check,2023-08-09 08:00:00,,,,
+WO-00102,AST-0015,TECH-0003,Corrective,High,Completed,Landing gear snag,2023-12-09 18:00:00,2023-12-09 21:09:22,2023-12-10 15:18:46,6.34,STR-002
+WO-00103,AST-0015,TECH-0012,Corrective,Medium,Completed,Hydraulic leak repair,2023-05-29 07:00:00,2023-05-29 10:32:15,2023-06-02 05:06:00,68.65,MEC-002
+WO-00104,AST-0006,TECH-0003,Inspection,High,Completed,Pre-flight walkaround,2023-09-26 07:00:00,2023-09-26 10:28:05,2023-09-26 21:22:46,2.91,
+WO-00105,AST-0009,TECH-0007,Corrective,High,Completed,Electrical fault trace,2023-06-29 17:00:00,2023-06-30 00:41:12,2023-06-30 08:08:42,0.61,STR-002
+WO-00106,AST-0015,,Preventive,Low,Open,Torque check,2023-11-18 13:00:00,,,,
+WO-00107,AST-0015,TECH-0010,Corrective,Low,Completed,Landing gear snag,2023-11-16 11:00:00,2023-11-16 17:58:54,2023-11-18 22:36:08,2.87,STR-002
+WO-00108,AST-0028,TECH-0003,Preventive,Medium,Completed,Torque check,2023-08-20 06:00:00,2023-08-20 06:55:36,2023-08-23 15:12:49,55.51,
+WO-00109,AST-0017,TECH-0005,Corrective,Medium,Completed,Hydraulic leak repair,2023-01-22 13:00:00,2023-01-22 20:19:04,2023-01-23 20:52:58,11.89,AVN-001
+WO-00110,AST-0017,TECH-0017,Preventive,Low,Completed,Lubrication service,2023-02-13 14:00:00,2023-02-13 19:20:45,2023-02-18 22:06:22,97.32,
+WO-00111,AST-0004,TECH-0018,Corrective,Low,Completed,Engine vibration fix,2023-06-23 16:00:00,2023-06-23 20:59:02,2023-07-07 16:06:18,17.46,ELE-003
+WO-00112,AST-0003,TECH-0019,Preventive,Low,Cancelled,Lubrication service,2023-11-05 19:00:00,2023-11-05 20:37:40,,,
+WO-00113,AST-0021,TECH-0011,Emergency,High,Completed,Emergency hydraulic failure,2023-12-06 12:00:00,2023-12-06 13:28:01,2023-12-06 19:47:31,2.83,
+WO-00114,AST-0014,TECH-0017,Inspection,Low,Cancelled,NDT check,2023-09-27 07:00:00,2023-09-27 12:20:42,,,
+WO-00115,AST-0008,TECH-0005,Preventive,High,Cancelled,Lubrication service,2023-06-24 18:00:00,2023-06-24 22:08:49,,,
+WO-00116,AST-0017,TECH-0002,Preventive,Low,In Progress,Filter replacement,2023-10-04 19:00:00,2023-10-05 01:02:23,,,
+WO-00117,AST-0024,TECH-0015,Inspection,Medium,Completed,Pre-flight walkaround,2023-03-20 08:00:00,2023-03-20 09:51:22,2023-03-22 09:59:32,34.76,
+WO-00118,AST-0024,TECH-0015,Corrective,Medium,In Progress,Electrical fault trace,2023-08-16 15:00:00,2023-08-16 17:38:13,,,STR-001
+WO-00119,AST-0025,TECH-0013,Preventive,Low,Completed,Torque check,2023-04-10 11:00:00,2023-04-10 16:35:14,2023-04-14 09:42:09,54.85,
+WO-00120,AST-0004,TECH-0017,Emergency,Low,Completed,AOG engine fault,2023-03-12 19:00:00,2023-03-12 21:22:30,2023-03-18 21:06:49,63.77,ELE-003
+WO-00121,AST-0029,TECH-0012,Preventive,High,Completed,Scheduled 500-hr inspection,2023-09-20 08:00:00,2023-09-20 14:43:58,2023-09-21 11:55:18,13.84,
+WO-00122,AST-0021,TECH-0011,Corrective,Medium,Completed,Electrical fault trace,2023-07-17 07:00:00,2023-07-17 10:18:42,2023-07-20 02:58:35,43.41,ELE-001
+WO-00123,AST-0009,TECH-0007,Preventive,Low,Completed,Lubrication service,2023-03-13 18:00:00,2023-03-13 23:47:29,2023-03-15 10:03:11,2.17,
+WO-00124,AST-0026,TECH-0020,Corrective,Medium,Completed,Engine vibration fix,2023-02-26 18:00:00,2023-02-26 20:39:38,2023-02-27 13:38:21,5.7,HYD-002
+WO-00125,AST-0020,TECH-0012,Preventive,Low,Completed,Lubrication service,2023-01-09 16:00:00,2023-01-09 20:21:55,2023-01-12 00:03:21,17.75,
+WO-00126,AST-0018,TECH-0001,Corrective,High,Completed,Engine vibration fix,2023-09-26 11:00:00,2023-09-26 12:00:27,2023-09-27 01:56:22,11.02,AVN-001
+WO-00127,AST-0025,TECH-0019,Preventive,Medium,Completed,Filter replacement,2023-01-09 11:00:00,2023-01-09 17:24:50,2023-01-11 23:23:33,27.13,
+WO-00128,AST-0006,TECH-0005,Preventive,Medium,Completed,Scheduled 500-hr inspection,2023-11-26 08:00:00,2023-11-26 14:43:40,2023-11-29 10:05:31,25.79,
+WO-00129,AST-0026,,Inspection,Low,Open,Borescope inspection,2023-04-14 06:00:00,,,,
+WO-00130,AST-0012,TECH-0002,Inspection,High,Completed,NDT check,2023-07-23 19:00:00,2023-07-23 23:34:21,2023-07-24 17:55:55,2.81,
+WO-00131,AST-0023,TECH-0016,Preventive,Low,Completed,Filter replacement,2023-07-24 17:00:00,2023-07-24 20:47:52,2023-08-04 10:14:06,37.88,
+WO-00132,AST-0004,TECH-0003,Emergency,Medium,Completed,Critical avionics failure,2023-08-06 07:00:00,2023-08-06 10:43:46,2023-08-10 06:13:07,21.5,
+WO-00133,AST-0020,TECH-0014,Preventive,Medium,Completed,Filter replacement,2023-03-27 17:00:00,2023-03-27 20:49:45,2023-03-30 02:28:38,39.12,
+WO-00134,AST-0013,,Corrective,Low,Open,Landing gear snag,2023-12-10 16:00:00,,,,STR-001
+WO-00135,AST-0026,TECH-0015,Inspection,Medium,Cancelled,Pre-flight walkaround,2023-03-15 19:00:00,2023-03-16 00:03:24,,,
+WO-00136,AST-0012,TECH-0012,Preventive,High,Completed,Torque check,2023-07-05 12:00:00,2023-07-05 19:37:15,2023-07-06 03:10:58,2.72,
+WO-00137,AST-0016,TECH-0017,Inspection,Medium,Completed,Annual compliance check,2023-07-23 11:00:00,2023-07-23 16:22:18,2023-07-24 12:53:52,12.08,
+WO-00138,AST-0007,TECH-0004,Emergency,High,Completed,Emergency hydraulic failure,2023-12-27 13:00:00,2023-12-27 15:06:33,2023-12-28 08:24:03,13.81,HYD-002
+WO-00139,AST-0003,TECH-0018,Corrective,Low,Completed,Landing gear snag,2023-02-14 18:00:00,2023-02-14 23:36:52,2023-02-25 08:09:02,69.08,ELE-003
+WO-00140,AST-0005,TECH-0008,Inspection,Medium,Completed,Annual compliance check,2023-11-23 08:00:00,2023-11-23 14:27:09,2023-11-24 11:24:22,3.37,
+WO-00141,AST-0024,TECH-0016,Preventive,Medium,Completed,Torque check,2023-10-10 08:00:00,2023-10-10 13:05:22,2023-10-11 20:11:28,24.87,
+WO-00142,AST-0003,,Inspection,Low,Open,Annual compliance check,2023-06-12 16:00:00,,,,
+WO-00143,AST-0025,TECH-0005,Corrective,Medium,In Progress,Engine vibration fix,2023-10-10 16:00:00,2023-10-10 20:54:30,,,STR-001
+WO-00144,AST-0011,TECH-0008,Emergency,Critical,In Progress,Critical avionics failure,2023-03-20 10:00:00,2023-03-20 11:44:05,,,STR-001
+WO-00145,AST-0021,TECH-0006,Inspection,Low,Completed,Borescope inspection,2023-11-22 14:00:00,2023-11-22 16:33:30,2023-11-27 07:34:34,8.3,
+WO-00146,AST-0021,TECH-0019,Preventive,Medium,Completed,Filter replacement,2023-06-22 19:00:00,2023-06-23 02:25:46,2023-06-25 15:28:25,3.97,
+WO-00147,AST-0016,TECH-0008,Corrective,Low,Completed,Engine vibration fix,2023-11-24 06:00:00,2023-11-24 10:14:07,2023-11-27 08:20:02,53.65,ELE-003
+WO-00148,AST-0011,TECH-0020,Corrective,Medium,In Progress,Electrical fault trace,2023-08-01 13:00:00,2023-08-01 16:58:59,,,MEC-001
+WO-00149,AST-0012,TECH-0017,Inspection,High,Cancelled,Pre-flight walkaround,2023-06-26 12:00:00,2023-06-26 13:28:50,,,
+WO-00150,AST-0008,TECH-0006,Preventive,Medium,Completed,Filter replacement,2023-05-07 08:00:00,2023-05-07 09:13:33,2023-05-08 20:22:12,17.3,
+WO-00151,AST-0015,TECH-0016,Emergency,Medium,In Progress,Critical avionics failure,2023-03-23 13:00:00,2023-03-23 20:58:11,,,AVN-001
+WO-00152,AST-0027,TECH-0016,Preventive,Low,Completed,Filter replacement,2023-05-04 09:00:00,2023-05-04 13:52:30,2023-05-07 10:55:33,33.01,
+WO-00153,AST-0018,TECH-0007,Corrective,Low,Completed,Landing gear snag,2023-05-16 17:00:00,2023-05-16 20:14:35,2023-05-18 11:32:37,1.61,STR-001
+WO-00154,AST-0004,TECH-0013,Preventive,Medium,Completed,Filter replacement,2023-10-09 10:00:00,2023-10-09 16:41:23,2023-10-11 16:05:10,4.88,
+WO-00155,AST-0023,TECH-0011,Inspection,High,Completed,Annual compliance check,2023-03-15 09:00:00,2023-03-15 14:01:06,2023-03-15 19:32:35,0.17,
+WO-00156,AST-0027,TECH-0010,Corrective,High,Completed,Landing gear snag,2023-03-13 11:00:00,2023-03-13 18:29:06,2023-03-14 06:21:30,5.86,STR-001
+WO-00157,AST-0019,TECH-0010,Inspection,Medium,Completed,Pre-flight walkaround,2023-06-03 13:00:00,2023-06-03 19:37:05,2023-06-05 22:24:13,39.81,
+WO-00158,AST-0024,TECH-0020,Corrective,High,Completed,Engine vibration fix,2023-10-24 15:00:00,2023-10-24 17:12:23,2023-10-25 06:39:16,5.64,ELE-001
+WO-00159,AST-0007,TECH-0014,Inspection,High,Completed,Annual compliance check,2023-12-25 07:00:00,2023-12-25 08:55:51,2023-12-25 21:16:08,4.08,
+WO-00160,AST-0007,,Inspection,Medium,Open,NDT check,2023-03-12 14:00:00,,,,
+WO-00161,AST-0024,TECH-0009,Emergency,Medium,Completed,Fire warning system fault,2023-03-30 13:00:00,2023-03-30 20:20:27,2023-04-01 05:52:20,20.71,ELE-002
+WO-00162,AST-0012,TECH-0018,Emergency,High,Completed,Critical avionics failure,2023-06-02 18:00:00,2023-06-02 20:40:03,2023-06-03 14:09:26,4.44,ELE-003
+WO-00163,AST-0023,TECH-0003,Preventive,Medium,Completed,Filter replacement,2023-07-22 19:00:00,2023-07-22 22:05:18,2023-07-26 13:54:28,2.96,
+WO-00164,AST-0004,TECH-0020,Emergency,Medium,Completed,Emergency hydraulic failure,2023-04-20 09:00:00,2023-04-20 15:42:34,2023-04-22 12:27:30,9.72,ELE-002
+WO-00165,AST-0011,TECH-0016,Preventive,Low,In Progress,Scheduled 500-hr inspection,2023-04-30 06:00:00,2023-04-30 07:15:05,,,
+WO-00166,AST-0029,TECH-0016,Corrective,High,Cancelled,Engine vibration fix,2023-03-22 12:00:00,2023-03-22 17:23:48,,,
+WO-00167,AST-0024,TECH-0002,Preventive,Low,Completed,Lubrication service,2023-11-27 06:00:00,2023-11-27 13:18:34,2023-12-01 23:15:01,45.36,
+WO-00168,AST-0030,TECH-0010,Corrective,Low,Completed,Hydraulic leak repair,2023-01-19 19:00:00,2023-01-19 22:28:38,2023-01-26 06:05:24,116.7,HYD-001
+WO-00169,AST-0005,TECH-0017,Preventive,Medium,Completed,Torque check,2023-06-21 10:00:00,2023-06-21 13:54:27,2023-06-23 08:37:14,30.39,
+WO-00170,AST-0019,TECH-0007,Preventive,Low,Completed,Lubrication service,2023-08-23 16:00:00,2023-08-23 18:25:46,2023-08-29 00:50:36,79.97,
+WO-00171,AST-0016,TECH-0011,Corrective,Medium,Completed,Electrical fault trace,2023-08-07 14:00:00,2023-08-07 16:57:34,2023-08-08 12:30:36,15.35,HYD-001
+WO-00172,AST-0008,TECH-0002,Preventive,High,Completed,Scheduled 500-hr inspection,2023-06-18 10:00:00,2023-06-18 14:52:06,2023-06-19 00:22:35,2.73,
+WO-00173,AST-0020,TECH-0008,Corrective,High,Completed,Electrical fault trace,2023-12-27 18:00:00,2023-12-27 20:49:56,2023-12-28 18:07:21,5.03,ELE-001
+WO-00174,AST-0030,TECH-0016,Corrective,Medium,Cancelled,Electrical fault trace,2023-07-11 12:00:00,2023-07-11 17:45:52,,,
+WO-00175,AST-0002,TECH-0018,Preventive,Low,Completed,Lubrication service,2023-02-11 14:00:00,2023-02-11 17:51:02,2023-02-13 13:17:29,19.61,
+WO-00176,AST-0017,TECH-0015,Corrective,High,Completed,Hydraulic leak repair,2023-09-24 13:00:00,2023-09-24 14:22:18,2023-09-25 05:40:06,1.11,AVN-001
+WO-00177,AST-0001,TECH-0007,Preventive,Medium,Completed,Scheduled 500-hr inspection,2023-10-14 13:00:00,2023-10-14 18:32:44,2023-10-15 10:07:16,3.17,
+WO-00178,AST-0029,,Preventive,High,Open,Scheduled 500-hr inspection,2023-01-31 20:00:00,,,,
+WO-00179,AST-0012,TECH-0013,Emergency,Medium,Completed,Fire warning system fault,2023-04-03 18:00:00,2023-04-03 19:30:56,2023-04-06 01:17:50,41.47,MEC-002
+WO-00180,AST-0017,TECH-0005,Corrective,Medium,Completed,Electrical fault trace,2023-10-04 08:00:00,2023-10-04 13:24:05,2023-10-05 13:26:20,10.33,HYD-001
+WO-00181,AST-0009,TECH-0007,Inspection,Low,Completed,Pre-flight walkaround,2023-10-06 12:00:00,2023-10-06 16:29:22,2023-10-16 06:51:45,63.8,
+WO-00182,AST-0023,TECH-0002,Preventive,Medium,Completed,Lubrication service,2023-01-09 09:00:00,2023-01-09 11:02:44,2023-01-10 03:15:31,7.75,
+WO-00183,AST-0002,TECH-0005,Inspection,Medium,In Progress,NDT check,2023-04-22 18:00:00,2023-04-23 00:58:40,,,
+WO-00184,AST-0022,TECH-0017,Preventive,Low,Completed,Lubrication service,2023-10-23 15:00:00,2023-10-23 21:17:38,2023-11-02 08:59:37,159.62,
+WO-00185,AST-0002,TECH-0012,Corrective,High,Completed,Engine vibration fix,2023-10-30 20:00:00,2023-10-31 02:00:50,2023-10-31 19:01:53,7.57,
+WO-00186,AST-0028,TECH-0005,Corrective,Medium,Completed,Engine vibration fix,2023-06-03 12:00:00,2023-06-03 13:52:44,2023-06-04 17:17:28,4.94,HYD-001
+WO-00187,AST-0028,TECH-0012,Corrective,Low,Completed,Hydraulic leak repair,2023-03-10 12:00:00,2023-03-10 14:19:17,2023-03-15 09:24:22,84.91,STR-001
+WO-00188,AST-0024,TECH-0018,Inspection,High,Completed,Borescope inspection,2023-12-11 15:00:00,2023-12-11 20:01:18,2023-12-13 02:47:44,18.75,
+WO-00189,AST-0016,TECH-0008,Corrective,Low,Completed,Electrical fault trace,2023-01-08 09:00:00,2023-01-08 16:31:43,2023-01-16 22:05:32,157.98,MEC-002
+WO-00190,AST-0016,TECH-0015,Emergency,Medium,Completed,AOG engine fault,2023-07-14 13:00:00,2023-07-14 17:30:08,2023-07-15 22:01:36,11.7,
+WO-00191,AST-0001,TECH-0009,Emergency,Medium,Completed,Fire warning system fault,2023-04-15 11:00:00,2023-04-15 13:50:48,2023-04-18 02:54:26,36.21,ELE-003
+WO-00192,AST-0016,TECH-0016,Preventive,High,Completed,Torque check,2023-05-06 13:00:00,2023-05-06 17:37:47,2023-05-08 05:46:55,22.08,
+WO-00193,AST-0029,TECH-0018,Preventive,Low,In Progress,Scheduled 500-hr inspection,2023-10-07 13:00:00,2023-10-07 14:52:49,,,
+WO-00194,AST-0025,,Corrective,Low,Open,Hydraulic leak repair,2023-12-09 06:00:00,,,,MEC-002
+WO-00195,AST-0007,,Preventive,Medium,Open,Torque check,2023-03-19 06:00:00,,,,
+WO-00196,AST-0001,TECH-0001,Corrective,Medium,Completed,Landing gear snag,2023-11-12 20:00:00,2023-11-13 00:07:26,2023-11-13 14:52:51,6.51,STR-001
+WO-00197,AST-0005,TECH-0008,Emergency,Critical,Completed,Emergency hydraulic failure,2023-12-12 12:00:00,2023-12-12 18:32:46,2023-12-12 23:11:18,0.36,STR-002
+WO-00198,AST-0008,TECH-0010,Corrective,Low,Completed,Hydraulic leak repair,2023-07-23 07:00:00,2023-07-23 10:17:52,2023-07-27 19:05:17,83.01,
+WO-00199,AST-0013,,Emergency,Medium,Open,Fire warning system fault,2023-07-27 12:00:00,,,,HYD-001
+WO-00200,AST-0026,,Corrective,Medium,Open,Landing gear snag,2023-08-11 16:00:00,,,,STR-002
+WO-00201,AST-0002,TECH-0003,Emergency,Low,Completed,Critical avionics failure,2023-01-22 09:00:00,2023-01-22 11:05:08,2023-02-07 18:44:57,148.99,STR-001
+WO-00202,AST-0013,TECH-0003,Corrective,Critical,Completed,Landing gear snag,2023-06-11 06:00:00,2023-06-11 13:42:39,2023-06-11 16:46:04,1.74,ELE-001
+WO-00203,AST-0023,TECH-0003,Corrective,Medium,Completed,Landing gear snag,2023-12-13 20:00:00,2023-12-14 00:33:15,2023-12-16 06:54:01,34.37,HYD-001
+WO-00204,AST-0020,,Preventive,High,Open,Torque check,2023-11-06 18:00:00,,,,
+WO-00205,AST-0019,TECH-0013,Emergency,High,Completed,AOG engine fault,2023-08-19 13:00:00,2023-08-19 15:12:39,2023-08-20 02:46:07,1.72,
+WO-00206,AST-0011,TECH-0012,Corrective,Low,Completed,Hydraulic leak repair,2023-02-12 10:00:00,2023-02-12 11:39:23,2023-02-17 05:07:41,67.14,HYD-002
+WO-00207,AST-0014,TECH-0004,Preventive,High,Completed,Scheduled 500-hr inspection,2023-05-19 07:00:00,2023-05-19 08:29:37,2023-05-19 21:22:22,5.72,
+WO-00208,AST-0029,TECH-0018,Preventive,Medium,Completed,Lubrication service,2023-06-16 19:00:00,2023-06-16 22:23:21,2023-06-18 09:43:49,2.39,
+WO-00209,AST-0014,TECH-0010,Corrective,High,Completed,Engine vibration fix,2023-03-13 10:00:00,2023-03-13 12:45:30,2023-03-13 18:41:50,2.07,
+WO-00210,AST-0007,TECH-0015,Preventive,High,In Progress,Scheduled 500-hr inspection,2023-11-17 13:00:00,2023-11-17 17:57:12,,,
+WO-00211,AST-0028,TECH-0020,Preventive,Critical,Completed,Lubrication service,2023-11-14 12:00:00,2023-11-14 18:31:50,2023-11-14 20:20:05,1.18,
+WO-00212,AST-0021,TECH-0016,Preventive,Medium,Completed,Lubrication service,2023-09-03 11:00:00,2023-09-03 12:49:56,2023-09-04 20:27:56,18.6,
+WO-00213,AST-0025,TECH-0018,Preventive,High,Completed,Scheduled 500-hr inspection,2023-07-06 07:00:00,2023-07-06 14:29:25,2023-07-07 13:14:28,3.27,
+WO-00214,AST-0014,TECH-0016,Emergency,Medium,Completed,Emergency hydraulic failure,2023-08-13 18:00:00,2023-08-13 20:41:05,2023-08-16 07:18:32,37.32,
+WO-00215,AST-0015,TECH-0020,Preventive,High,In Progress,Torque check,2023-08-05 18:00:00,2023-08-05 21:19:38,,,
+WO-00216,AST-0018,TECH-0020,Corrective,Medium,Completed,Hydraulic leak repair,2023-12-21 12:00:00,2023-12-21 16:34:38,2023-12-26 07:24:23,79.4,HYD-002
+WO-00217,AST-0025,TECH-0011,Inspection,Medium,Completed,Annual compliance check,2023-11-28 15:00:00,2023-11-28 15:49:56,2023-12-04 16:59:57,46.41,
+WO-00218,AST-0019,TECH-0008,Preventive,Critical,In Progress,Torque check,2023-09-23 14:00:00,2023-09-23 18:51:13,,,
+WO-00219,AST-0030,TECH-0003,Corrective,Medium,Completed,Hydraulic leak repair,2023-12-20 14:00:00,2023-12-20 15:37:50,2023-12-25 19:46:11,29.34,
+WO-00220,AST-0011,TECH-0003,Preventive,High,Completed,Filter replacement,2023-04-16 14:00:00,2023-04-16 18:07:19,2023-04-17 06:48:32,7.07,
+WO-00221,AST-0004,,Preventive,Medium,Open,Lubrication service,2023-06-25 16:00:00,,,,
+WO-00222,AST-0021,TECH-0006,Emergency,Medium,Completed,Emergency hydraulic failure,2023-10-10 08:00:00,2023-10-10 10:58:56,2023-10-12 02:20:00,25.11,
+WO-00223,AST-0025,TECH-0003,Corrective,Medium,Completed,Hydraulic leak repair,2023-04-12 13:00:00,2023-04-12 17:56:29,2023-04-14 22:23:50,8.64,
+WO-00224,AST-0020,TECH-0013,Inspection,High,Completed,Annual compliance check,2023-08-23 07:00:00,2023-08-23 09:28:03,2023-08-25 04:27:55,21.98,
+WO-00225,AST-0003,TECH-0005,Corrective,High,Completed,Landing gear snag,2023-11-13 08:00:00,2023-11-13 14:36:10,2023-11-14 00:45:25,4.99,HYD-002
+WO-00226,AST-0016,TECH-0018,Preventive,High,Completed,Lubrication service,2023-03-14 14:00:00,2023-03-14 17:24:48,2023-03-15 08:33:35,5.13,
+WO-00227,AST-0002,TECH-0012,Corrective,Medium,In Progress,Hydraulic leak repair,2023-06-11 19:00:00,2023-06-11 22:52:57,,,AVN-001
+WO-00228,AST-0022,TECH-0016,Preventive,Low,Cancelled,Torque check,2023-09-16 16:00:00,2023-09-16 20:12:44,,,
+WO-00229,AST-0008,TECH-0010,Inspection,Medium,In Progress,Pre-flight walkaround,2023-10-17 06:00:00,2023-10-17 12:28:08,,,
+WO-00230,AST-0025,TECH-0016,Preventive,Medium,In Progress,Scheduled 500-hr inspection,2023-08-23 15:00:00,2023-08-23 21:04:07,,,
+WO-00231,AST-0014,TECH-0004,Corrective,High,Completed,Electrical fault trace,2023-07-07 14:00:00,2023-07-07 20:40:10,2023-07-08 14:24:40,7.75,ELE-003
+WO-00232,AST-0024,TECH-0019,Inspection,Critical,Completed,NDT check,2023-02-14 13:00:00,2023-02-14 19:59:22,2023-02-14 23:13:31,0.54,
+WO-00233,AST-0018,TECH-0009,Inspection,Medium,Completed,Borescope inspection,2023-11-12 08:00:00,2023-11-12 14:23:10,2023-11-19 05:22:26,72.51,
+WO-00234,AST-0025,TECH-0014,Preventive,Medium,Completed,Scheduled 500-hr inspection,2023-05-17 19:00:00,2023-05-17 23:21:29,2023-05-24 15:23:51,17.36,
+WO-00235,AST-0011,TECH-0008,Emergency,Low,In Progress,Fire warning system fault,2023-03-09 09:00:00,2023-03-09 10:35:48,,,AVN-001
+WO-00236,AST-0024,TECH-0009,Preventive,Medium,Completed,Filter replacement,2023-07-12 13:00:00,2023-07-12 14:03:58,2023-07-19 01:06:21,49.97,
+WO-00237,AST-0026,TECH-0018,Corrective,Medium,Completed,Engine vibration fix,2023-02-17 17:00:00,2023-02-18 00:47:28,2023-02-20 04:50:41,35.4,ELE-002
+WO-00238,AST-0026,TECH-0011,Emergency,Low,Completed,AOG engine fault,2023-06-15 19:00:00,2023-06-15 21:37:37,2023-06-17 23:40:54,34.13,HYD-001
+WO-00239,AST-0007,TECH-0005,Preventive,Low,Completed,Filter replacement,2023-03-05 20:00:00,2023-03-06 02:55:56,2023-03-07 12:37:03,25.82,
+WO-00240,AST-0013,TECH-0010,Preventive,Low,Completed,Lubrication service,2023-12-02 11:00:00,2023-12-02 13:22:40,2023-12-08 16:51:24,19.53,
+WO-00241,AST-0003,,Corrective,Critical,Open,Electrical fault trace,2023-04-20 13:00:00,,,,STR-002
+WO-00242,AST-0027,,Preventive,Medium,Open,Scheduled 500-hr inspection,2023-12-23 11:00:00,,,,
+WO-00243,AST-0024,TECH-0004,Emergency,Medium,In Progress,AOG engine fault,2023-02-06 09:00:00,2023-02-06 12:22:22,,,MEC-001
+WO-00244,AST-0021,TECH-0006,Corrective,High,Completed,Engine vibration fix,2023-03-10 16:00:00,2023-03-10 23:56:49,2023-03-11 14:17:46,0.1,MEC-001
+WO-00245,AST-0028,TECH-0007,Inspection,Medium,In Progress,Pre-flight walkaround,2023-07-30 15:00:00,2023-07-30 20:38:57,,,
+WO-00246,AST-0011,TECH-0005,Inspection,High,In Progress,Borescope inspection,2023-07-16 11:00:00,2023-07-16 18:43:27,,,
+WO-00247,AST-0022,TECH-0010,Preventive,Critical,Completed,Lubrication service,2023-11-04 17:00:00,2023-11-04 22:03:25,2023-11-05 06:11:59,5.52,
+WO-00248,AST-0004,TECH-0008,Corrective,Medium,Completed,Engine vibration fix,2023-06-01 16:00:00,2023-06-01 16:54:33,2023-06-09 00:00:49,69.33,
+WO-00249,AST-0013,TECH-0019,Corrective,Medium,Cancelled,Engine vibration fix,2023-07-04 20:00:00,2023-07-04 22:52:24,,,MEC-001
+WO-00250,AST-0026,TECH-0013,Corrective,High,Completed,Landing gear snag,2023-02-07 06:00:00,2023-02-07 10:54:18,2023-02-07 19:35:18,6.41,
+WO-00251,AST-0003,TECH-0017,Inspection,Low,Completed,Borescope inspection,2023-07-25 07:00:00,2023-07-25 12:18:14,2023-07-27 17:08:30,3.53,
+WO-00252,AST-0014,TECH-0008,Emergency,High,Completed,AOG engine fault,2023-10-28 16:00:00,2023-10-28 22:13:27,2023-10-29 14:36:03,4.06,ELE-002
+WO-00253,AST-0023,TECH-0005,Preventive,Medium,Completed,Scheduled 500-hr inspection,2023-11-08 06:00:00,2023-11-08 08:49:10,2023-11-10 15:12:54,5.2,
+WO-00254,AST-0004,TECH-0001,Preventive,Low,Completed,Filter replacement,2023-05-13 08:00:00,2023-05-13 11:17:20,2023-05-19 10:56:41,84.23,
+WO-00255,AST-0021,,Inspection,High,Open,Pre-flight walkaround,2023-12-31 15:00:00,,,,
+WO-00256,AST-0012,,Corrective,Medium,Open,Electrical fault trace,2023-10-18 08:00:00,,,,ELE-003
+WO-00257,AST-0002,TECH-0016,Inspection,Low,Completed,NDT check,2023-03-01 09:00:00,2023-03-01 15:03:21,2023-03-07 12:51:02,1.39,
+WO-00258,AST-0008,TECH-0014,Corrective,High,Completed,Landing gear snag,2023-01-19 14:00:00,2023-01-19 20:31:24,2023-01-20 13:07:33,2.98,ELE-003
+WO-00259,AST-0008,TECH-0017,Inspection,Medium,In Progress,Pre-flight walkaround,2023-12-11 20:00:00,2023-12-11 20:53:42,,,
+WO-00260,AST-0007,TECH-0010,Emergency,Critical,Completed,Critical avionics failure,2023-05-25 18:00:00,2023-05-26 00:50:10,2023-05-26 03:17:44,0.02,
+WO-00261,AST-0005,TECH-0001,Corrective,Medium,Completed,Engine vibration fix,2023-09-10 18:00:00,2023-09-11 00:19:08,2023-09-12 20:14:00,27.96,HYD-001
+WO-00262,AST-0004,TECH-0007,Preventive,High,Completed,Lubrication service,2023-01-05 11:00:00,2023-01-05 11:30:39,2023-01-06 07:35:35,11.68,
+WO-00263,AST-0002,TECH-0008,Corrective,Low,Cancelled,Engine vibration fix,2023-03-14 17:00:00,2023-03-14 19:35:55,,,
+WO-00264,AST-0002,TECH-0014,Inspection,Medium,Completed,Borescope inspection,2023-10-25 07:00:00,2023-10-25 11:17:26,2023-10-26 22:59:08,16.9,
+WO-00265,AST-0007,TECH-0005,Preventive,High,Completed,Scheduled 500-hr inspection,2023-07-21 17:00:00,2023-07-21 23:44:21,2023-07-22 12:41:20,2.42,
+WO-00266,AST-0009,TECH-0004,Preventive,High,Completed,Scheduled 500-hr inspection,2023-07-28 07:00:00,2023-07-28 11:31:09,2023-07-29 18:59:39,7.76,
+WO-00267,AST-0008,TECH-0012,Preventive,Medium,Completed,Torque check,2023-12-23 15:00:00,2023-12-23 15:48:08,2023-12-28 03:12:15,7.84,
+WO-00268,AST-0004,TECH-0015,Corrective,Medium,Completed,Hydraulic leak repair,2023-03-31 06:00:00,2023-03-31 13:38:26,2023-04-06 01:41:01,58.11,
+WO-00269,AST-0007,,Inspection,High,Open,Annual compliance check,2023-04-24 08:00:00,,,,
+WO-00270,AST-0029,TECH-0015,Corrective,Medium,Completed,Electrical fault trace,2023-10-26 15:00:00,2023-10-26 17:26:28,2023-10-29 19:47:44,3.84,HYD-002
+WO-00271,AST-0016,TECH-0001,Emergency,Low,Completed,Fire warning system fault,2023-01-22 13:00:00,2023-01-22 13:52:47,2023-02-03 03:02:06,160.62,
+WO-00272,AST-0021,TECH-0010,Corrective,Medium,Completed,Engine vibration fix,2023-05-21 10:00:00,2023-05-21 13:50:42,2023-05-23 13:24:24,23.48,MEC-002
+WO-00273,AST-0014,,Inspection,Medium,Open,Borescope inspection,2023-07-16 08:00:00,,,,
+WO-00274,AST-0013,TECH-0012,Corrective,Low,In Progress,Engine vibration fix,2023-10-06 18:00:00,2023-10-06 18:38:47,,,STR-001
+WO-00275,AST-0026,TECH-0009,Inspection,High,Completed,Pre-flight walkaround,2023-06-14 12:00:00,2023-06-14 14:31:41,2023-06-15 06:04:34,0.36,
+WO-00276,AST-0027,TECH-0002,Inspection,Medium,Completed,Borescope inspection,2023-10-27 09:00:00,2023-10-27 16:48:17,2023-10-29 18:40:31,10.63,
+WO-00277,AST-0019,TECH-0001,Corrective,Low,Completed,Landing gear snag,2023-03-30 08:00:00,2023-03-30 10:16:26,2023-04-04 16:52:31,36.34,STR-002
+WO-00278,AST-0016,TECH-0002,Corrective,Medium,In Progress,Hydraulic leak repair,2023-09-10 14:00:00,2023-09-10 16:49:04,,,HYD-001
+WO-00279,AST-0030,TECH-0011,Preventive,High,Completed,Scheduled 500-hr inspection,2023-01-01 11:00:00,2023-01-01 18:23:03,2023-01-02 01:31:58,4.1,
+WO-00280,AST-0022,TECH-0013,Preventive,Medium,Completed,Scheduled 500-hr inspection,2023-02-26 19:00:00,2023-02-26 23:26:49,2023-02-27 17:45:50,10.32,
+WO-00281,AST-0016,TECH-0011,Preventive,High,Cancelled,Lubrication service,2023-08-12 18:00:00,2023-08-12 23:17:40,,,
+WO-00282,AST-0024,TECH-0010,Inspection,Medium,Completed,Borescope inspection,2023-11-11 18:00:00,2023-11-11 21:10:34,2023-11-14 07:33:24,17.67,
+WO-00283,AST-0011,TECH-0020,Preventive,Critical,Completed,Lubrication service,2023-10-21 12:00:00,2023-10-21 18:52:50,2023-10-22 02:17:08,1.08,
+WO-00284,AST-0003,TECH-0011,Corrective,High,Completed,Engine vibration fix,2023-06-19 17:00:00,2023-06-19 18:05:00,2023-06-20 04:38:05,5.37,HYD-001
+WO-00285,AST-0004,,Preventive,High,Open,Scheduled 500-hr inspection,2023-05-12 18:00:00,,,,
+WO-00286,AST-0027,TECH-0016,Preventive,Medium,Completed,Lubrication service,2023-03-27 20:00:00,2023-03-27 23:36:18,2023-04-01 13:32:17,33.01,
+WO-00287,AST-0013,TECH-0006,Preventive,Critical,Completed,Scheduled 500-hr inspection,2023-05-31 06:00:00,2023-05-31 08:53:25,2023-05-31 13:20:08,0.6,
+WO-00288,AST-0029,,Corrective,Low,Open,Engine vibration fix,2023-11-01 15:00:00,,,,
+WO-00289,AST-0011,TECH-0007,Preventive,Low,In Progress,Lubrication service,2023-08-11 08:00:00,2023-08-11 08:54:06,,,
+WO-00290,AST-0018,TECH-0016,Corrective,Medium,Completed,Electrical fault trace,2023-10-04 10:00:00,2023-10-04 15:27:16,2023-10-05 11:02:02,6.15,HYD-001
+WO-00291,AST-0010,TECH-0003,Corrective,Medium,Completed,Engine vibration fix,2023-12-05 16:00:00,2023-12-05 21:00:05,2023-12-06 12:47:28,2.16,HYD-002
+WO-00292,AST-0012,TECH-0006,Preventive,Medium,Completed,Torque check,2023-12-05 10:00:00,2023-12-05 11:11:00,2023-12-06 11:34:01,17.27,
+WO-00293,AST-0012,TECH-0018,Preventive,Medium,Completed,Torque check,2023-05-18 15:00:00,2023-05-18 15:57:44,2023-05-24 16:02:55,9.88,
+WO-00294,AST-0019,TECH-0008,Emergency,Medium,Completed,Fire warning system fault,2023-07-18 19:00:00,2023-07-18 23:25:09,2023-07-25 01:37:21,109.52,ELE-003
+WO-00295,AST-0004,TECH-0015,Preventive,Low,Completed,Lubrication service,2023-09-15 15:00:00,2023-09-15 22:15:12,2023-09-30 00:59:31,168.09,
+WO-00296,AST-0003,TECH-0014,Emergency,High,In Progress,Emergency hydraulic failure,2023-04-09 08:00:00,2023-04-09 08:49:12,,,
+WO-00297,AST-0015,TECH-0001,Preventive,Medium,Completed,Torque check,2023-02-04 07:00:00,2023-02-04 10:24:38,2023-02-05 18:25:17,7.07,
+WO-00298,AST-0026,TECH-0010,Preventive,High,Completed,Filter replacement,2023-10-26 18:00:00,2023-10-27 01:44:10,2023-10-27 08:26:15,4.18,
+WO-00299,AST-0022,TECH-0013,Inspection,High,Completed,Pre-flight walkaround,2023-10-20 15:00:00,2023-10-20 19:02:52,2023-10-21 07:06:04,5.96,
+WO-00300,AST-0026,TECH-0010,Corrective,Low,Completed,Landing gear snag,2023-01-26 17:00:00,2023-01-26 21:03:50,2023-01-30 05:35:29,21.77,ELE-003
+WO-00301,AST-0024,TECH-0014,Inspection,Low,Completed,Pre-flight walkaround,2023-04-27 08:00:00,2023-04-27 10:45:12,2023-05-02 21:52:53,33.66,
+WO-00302,AST-0003,TECH-0010,Preventive,High,Completed,Torque check,2023-09-06 18:00:00,2023-09-06 22:22:25,2023-09-07 04:11:07,3.68,
+WO-00303,AST-0015,TECH-0002,Preventive,Low,Completed,Filter replacement,2023-01-15 08:00:00,2023-01-15 09:56:44,2023-01-31 04:51:49,75.63,
+WO-00304,AST-0020,TECH-0015,Inspection,High,Completed,Borescope inspection,2023-09-16 12:00:00,2023-09-16 17:15:56,2023-09-16 22:36:56,1.59,
+WO-00305,AST-0001,TECH-0013,Emergency,Medium,Completed,AOG engine fault,2023-06-26 08:00:00,2023-06-26 14:46:56,2023-06-29 02:02:57,4.29,ELE-001
+WO-00306,AST-0007,TECH-0009,Inspection,Low,In Progress,Annual compliance check,2023-04-24 16:00:00,2023-04-24 18:11:18,,,
+WO-00307,AST-0005,TECH-0006,Corrective,Low,Cancelled,Hydraulic leak repair,2023-12-16 06:00:00,2023-12-16 10:03:20,,,ELE-002
+WO-00308,AST-0007,TECH-0015,Preventive,Low,Completed,Filter replacement,2023-12-30 16:00:00,2023-12-30 18:33:55,2024-01-15 17:09:54,140.49,
+WO-00309,AST-0021,TECH-0020,Corrective,Low,Completed,Landing gear snag,2023-02-22 06:00:00,2023-02-22 10:20:10,2023-02-28 06:11:24,41.87,ELE-003
+WO-00310,AST-0021,TECH-0010,Corrective,Medium,Completed,Electrical fault trace,2023-05-22 16:00:00,2023-05-22 18:56:18,2023-05-24 20:46:08,37.96,ELE-001
+WO-00311,AST-0022,,Corrective,High,Open,Landing gear snag,2023-11-04 12:00:00,,,,
+WO-00312,AST-0019,TECH-0007,Preventive,Critical,Completed,Filter replacement,2023-06-01 10:00:00,2023-06-01 17:18:06,2023-06-01 20:18:43,1.4,
+WO-00313,AST-0022,TECH-0018,Inspection,High,Completed,Borescope inspection,2023-09-01 20:00:00,2023-09-02 03:33:18,2023-09-02 13:45:30,1.39,
+WO-00314,AST-0008,TECH-0012,Preventive,Medium,Completed,Lubrication service,2023-10-14 18:00:00,2023-10-15 01:20:40,2023-10-22 02:30:01,88.56,
+WO-00315,AST-0028,TECH-0019,Inspection,High,Completed,Pre-flight walkaround,2023-06-19 11:00:00,2023-06-19 13:27:15,2023-06-20 09:34:33,7.57,
+WO-00316,AST-0014,TECH-0002,Corrective,High,In Progress,Electrical fault trace,2023-12-15 12:00:00,2023-12-15 16:28:25,,,ELE-001
+WO-00317,AST-0023,TECH-0006,Emergency,High,Cancelled,AOG engine fault,2023-08-23 08:00:00,2023-08-23 10:52:22,,,AVN-001
+WO-00318,AST-0006,TECH-0016,Preventive,Low,Completed,Scheduled 500-hr inspection,2023-01-30 06:00:00,2023-01-30 09:53:25,2023-02-04 20:57:24,60.42,
+WO-00319,AST-0001,TECH-0011,Preventive,Medium,Completed,Lubrication service,2023-08-08 13:00:00,2023-08-08 16:22:29,2023-08-09 17:32:35,7.51,
+WO-00320,AST-0010,TECH-0006,Preventive,Critical,Completed,Scheduled 500-hr inspection,2023-04-26 17:00:00,2023-04-27 00:04:38,2023-04-27 01:11:07,0.45,
+WO-00321,AST-0029,TECH-0016,Inspection,High,Completed,NDT check,2023-09-24 15:00:00,2023-09-24 19:25:51,2023-09-25 12:35:34,1.84,
+WO-00322,AST-0019,TECH-0017,Inspection,High,Completed,Borescope inspection,2023-07-26 06:00:00,2023-07-26 08:12:47,2023-07-26 15:22:29,4.21,
+WO-00323,AST-0002,TECH-0004,Preventive,Medium,Completed,Scheduled 500-hr inspection,2023-07-12 20:00:00,2023-07-13 01:18:08,2023-07-18 20:36:03,66.19,
+WO-00324,AST-0001,TECH-0010,Preventive,High,Completed,Torque check,2023-03-05 14:00:00,2023-03-05 16:23:43,2023-03-06 00:53:40,4.66,
+WO-00325,AST-0004,TECH-0010,Corrective,Medium,Completed,Hydraulic leak repair,2023-11-07 17:00:00,2023-11-07 18:31:43,2023-11-11 05:51:34,47.92,
+WO-00326,AST-0007,TECH-0012,Preventive,High,In Progress,Torque check,2023-05-15 19:00:00,2023-05-15 23:25:24,,,
+WO-00327,AST-0030,TECH-0004,Preventive,Critical,Completed,Torque check,2023-04-17 17:00:00,2023-04-18 00:29:54,2023-04-18 01:18:23,0.43,
+WO-00328,AST-0015,TECH-0002,Preventive,Critical,Completed,Scheduled 500-hr inspection,2023-02-21 20:00:00,2023-02-21 22:25:09,2023-02-22 02:11:06,0.89,
+WO-00329,AST-0029,TECH-0002,Inspection,Low,Completed,Pre-flight walkaround,2023-07-04 18:00:00,2023-07-04 23:34:32,2023-07-06 23:46:45,32.83,
+WO-00330,AST-0020,TECH-0009,Inspection,Medium,In Progress,Pre-flight walkaround,2023-07-03 20:00:00,2023-07-03 23:46:58,,,
+WO-00331,AST-0013,TECH-0016,Corrective,High,In Progress,Engine vibration fix,2023-07-24 13:00:00,2023-07-24 15:32:19,,,
+WO-00332,AST-0014,TECH-0019,Inspection,High,In Progress,Annual compliance check,2023-01-31 19:00:00,2023-01-31 20:41:43,,,
+WO-00333,AST-0001,TECH-0005,Inspection,Medium,In Progress,Annual compliance check,2023-07-14 18:00:00,2023-07-14 21:11:22,,,
+WO-00334,AST-0025,TECH-0019,Emergency,High,Completed,Emergency hydraulic failure,2023-01-24 07:00:00,2023-01-24 09:27:43,2023-01-25 02:56:39,9.48,
+WO-00335,AST-0021,TECH-0013,Inspection,Medium,Completed,Borescope inspection,2023-11-13 07:00:00,2023-11-13 10:44:46,2023-11-15 03:10:14,21.46,
+WO-00336,AST-0006,TECH-0017,Inspection,Medium,Cancelled,Annual compliance check,2023-01-28 06:00:00,2023-01-28 11:19:31,,,
+WO-00337,AST-0008,,Inspection,Low,Open,NDT check,2023-09-09 11:00:00,,,,
+WO-00338,AST-0008,TECH-0003,Emergency,Critical,In Progress,Fire warning system fault,2023-11-26 12:00:00,2023-11-26 15:31:28,,,AVN-001
+WO-00339,AST-0014,TECH-0002,Inspection,Medium,Completed,Pre-flight walkaround,2023-08-17 11:00:00,2023-08-17 12:23:25,2023-08-19 14:04:20,4.08,
+WO-00340,AST-0018,TECH-0007,Inspection,Low,Cancelled,Annual compliance check,2023-11-23 10:00:00,2023-11-23 17:10:32,,,
+WO-00341,AST-0015,,Emergency,Medium,Open,Critical avionics failure,2023-04-25 19:00:00,,,,STR-001
+WO-00342,AST-0012,TECH-0010,Inspection,Medium,Completed,NDT check,2023-07-06 17:00:00,2023-07-06 20:53:38,2023-07-08 22:52:30,0.09,
+WO-00343,AST-0024,TECH-0014,Inspection,Critical,In Progress,Pre-flight walkaround,2023-03-13 19:00:00,2023-03-14 00:52:35,,,
+WO-00344,AST-0026,TECH-0007,Preventive,High,In Progress,Filter replacement,2023-07-21 09:00:00,2023-07-21 12:55:40,,,
+WO-00345,AST-0017,TECH-0005,Preventive,Medium,Completed,Torque check,2023-12-11 15:00:00,2023-12-11 16:25:26,2023-12-16 17:49:19,57.23,
+WO-00346,AST-0023,TECH-0019,Preventive,Medium,Completed,Lubrication service,2023-08-10 19:00:00,2023-08-10 23:53:18,2023-08-17 12:14:42,113.85,
+WO-00347,AST-0030,TECH-0008,Inspection,High,Completed,NDT check,2023-11-04 15:00:00,2023-11-04 22:07:12,2023-11-05 09:50:38,9.19,
+WO-00348,AST-0023,TECH-0018,Corrective,High,Completed,Landing gear snag,2023-03-10 08:00:00,2023-03-10 11:35:44,2023-03-11 05:52:02,4.37,
+WO-00349,AST-0022,TECH-0012,Inspection,Medium,In Progress,Borescope inspection,2023-04-18 15:00:00,2023-04-18 20:51:28,,,
+WO-00350,AST-0011,TECH-0004,Emergency,Medium,Cancelled,Critical avionics failure,2023-09-15 14:00:00,2023-09-15 19:42:26,,,STR-001
+WO-00351,AST-0026,TECH-0001,Corrective,Medium,Completed,Hydraulic leak repair,2023-08-02 16:00:00,2023-08-02 22:06:32,2023-08-07 04:59:21,69.74,HYD-001
+WO-00352,AST-0026,,Corrective,Critical,Open,Electrical fault trace,2023-05-17 18:00:00,,,,ELE-003
+WO-00353,AST-0025,,Corrective,High,Open,Hydraulic leak repair,2023-06-01 09:00:00,,,,MEC-001
+WO-00354,AST-0026,TECH-0010,Inspection,High,Completed,Pre-flight walkaround,2023-10-15 19:00:00,2023-10-15 21:10:56,2023-10-16 08:58:56,4.82,
+WO-00355,AST-0002,TECH-0001,Emergency,Medium,Cancelled,Critical avionics failure,2023-12-17 11:00:00,2023-12-17 18:44:37,,,ELE-002
+WO-00356,AST-0024,TECH-0020,Corrective,Low,Completed,Electrical fault trace,2023-04-26 20:00:00,2023-04-27 01:15:12,2023-04-30 09:11:19,37.63,
+WO-00357,AST-0014,TECH-0009,Inspection,High,Completed,NDT check,2023-12-16 07:00:00,2023-12-16 08:54:08,2023-12-16 22:57:05,4.24,
+WO-00358,AST-0002,TECH-0020,Preventive,Medium,Completed,Filter replacement,2023-06-19 13:00:00,2023-06-19 18:49:21,2023-06-20 17:31:21,5.86,
+WO-00359,AST-0006,TECH-0014,Corrective,Medium,Completed,Engine vibration fix,2023-12-29 11:00:00,2023-12-29 15:26:25,2024-01-03 23:39:57,80.65,HYD-002
+WO-00360,AST-0018,TECH-0001,Preventive,Low,Completed,Scheduled 500-hr inspection,2023-06-19 11:00:00,2023-06-19 13:42:06,2023-07-03 01:30:30,123.01,
+WO-00361,AST-0030,TECH-0004,Corrective,Medium,Completed,Engine vibration fix,2023-11-11 20:00:00,2023-11-12 01:09:30,2023-11-18 02:52:26,37.41,ELE-003
+WO-00362,AST-0007,TECH-0011,Corrective,High,Completed,Hydraulic leak repair,2023-07-11 14:00:00,2023-07-11 20:31:16,2023-07-12 02:06:37,4.02,HYD-002
+WO-00363,AST-0014,TECH-0004,Preventive,Low,Completed,Lubrication service,2023-01-04 16:00:00,2023-01-04 16:59:27,2023-01-10 04:03:44,90.7,
+WO-00364,AST-0003,TECH-0005,Corrective,Medium,Cancelled,Hydraulic leak repair,2023-08-11 16:00:00,2023-08-11 22:37:32,,,AVN-001
+WO-00365,AST-0009,,Inspection,Critical,Open,Pre-flight walkaround,2023-04-02 18:00:00,,,,
+WO-00366,AST-0018,TECH-0001,Corrective,High,Completed,Hydraulic leak repair,2023-07-18 13:00:00,2023-07-18 18:13:35,2023-07-18 23:19:50,2.75,
+WO-00367,AST-0010,TECH-0015,Inspection,Critical,Completed,Annual compliance check,2023-07-03 20:00:00,2023-07-04 00:16:16,2023-07-04 03:07:44,1.39,
+WO-00368,AST-0021,TECH-0005,Corrective,Medium,Completed,Landing gear snag,2023-10-01 09:00:00,2023-10-01 10:31:22,2023-10-03 19:59:13,25.09,
+WO-00369,AST-0002,TECH-0001,Inspection,Low,Completed,Annual compliance check,2023-11-28 11:00:00,2023-11-28 18:40:49,2023-12-04 18:30:03,16.27,
+WO-00370,AST-0008,TECH-0020,Corrective,Low,Completed,Landing gear snag,2023-06-26 09:00:00,2023-06-26 12:35:41,2023-06-30 14:46:35,12.64,ELE-002
+WO-00371,AST-0003,TECH-0010,Preventive,Medium,Completed,Scheduled 500-hr inspection,2023-01-28 19:00:00,2023-01-29 01:07:58,2023-02-03 12:24:31,67.7,
+WO-00372,AST-0029,TECH-0007,Preventive,High,Completed,Filter replacement,2023-06-19 11:00:00,2023-06-19 12:27:41,2023-06-19 19:03:44,3.27,
+WO-00373,AST-0006,TECH-0001,Corrective,High,Completed,Landing gear snag,2023-12-22 15:00:00,2023-12-22 16:38:34,2023-12-23 11:58:53,14.83,ELE-002
+WO-00374,AST-0015,TECH-0012,Inspection,Medium,Completed,NDT check,2023-05-22 19:00:00,2023-05-22 22:11:46,2023-05-24 06:30:01,12.4,
+WO-00375,AST-0024,TECH-0003,Corrective,High,Completed,Hydraulic leak repair,2023-02-11 19:00:00,2023-02-11 21:36:16,2023-02-14 05:41:28,8.81,HYD-001
+WO-00376,AST-0029,TECH-0018,Inspection,Medium,Completed,Annual compliance check,2023-10-24 12:00:00,2023-10-24 18:16:08,2023-10-25 10:38:54,3.41,
+WO-00377,AST-0012,TECH-0017,Corrective,High,Completed,Hydraulic leak repair,2023-10-29 17:00:00,2023-10-29 23:55:43,2023-10-30 13:44:56,1.0,
+WO-00378,AST-0005,TECH-0015,Preventive,Low,Cancelled,Lubrication service,2023-12-17 08:00:00,2023-12-17 14:10:44,,,
+WO-00379,AST-0008,TECH-0003,Preventive,Low,Completed,Filter replacement,2023-03-16 17:00:00,2023-03-16 22:59:24,2023-03-24 09:10:32,108.55,
+WO-00380,AST-0015,TECH-0002,Corrective,Critical,In Progress,Hydraulic leak repair,2023-07-04 12:00:00,2023-07-04 16:01:21,,,
+WO-00381,AST-0013,TECH-0012,Preventive,Medium,Completed,Scheduled 500-hr inspection,2023-05-21 19:00:00,2023-05-22 01:03:51,2023-05-23 22:15:10,13.62,
+WO-00382,AST-0020,TECH-0001,Corrective,Medium,Completed,Electrical fault trace,2023-09-22 12:00:00,2023-09-22 15:08:48,2023-09-27 19:43:40,48.05,AVN-001
+WO-00383,AST-0008,TECH-0014,Preventive,Critical,Completed,Filter replacement,2023-04-19 08:00:00,2023-04-19 09:54:06,2023-04-19 12:51:13,0.28,
+WO-00384,AST-0019,TECH-0019,Inspection,Medium,Completed,Borescope inspection,2023-04-18 15:00:00,2023-04-18 16:42:33,2023-04-21 19:08:00,2.57,
+WO-00385,AST-0019,TECH-0001,Preventive,Medium,Completed,Filter replacement,2023-03-17 06:00:00,2023-03-17 07:44:51,2023-03-22 15:32:41,41.45,
+WO-00386,AST-0019,TECH-0006,Emergency,High,Completed,Critical avionics failure,2023-08-30 19:00:00,2023-08-30 23:06:45,2023-08-31 11:18:22,1.39,ELE-001
+WO-00387,AST-0028,TECH-0017,Inspection,High,Completed,Annual compliance check,2023-10-30 07:00:00,2023-10-30 09:13:24,2023-10-30 15:58:40,1.09,
+WO-00388,AST-0026,TECH-0018,Inspection,Medium,In Progress,Pre-flight walkaround,2023-11-11 15:00:00,2023-11-11 15:47:33,,,
+WO-00389,AST-0014,TECH-0012,Preventive,Medium,Completed,Scheduled 500-hr inspection,2023-10-04 19:00:00,2023-10-04 19:30:32,2023-10-10 20:47:36,50.15,
+WO-00390,AST-0027,TECH-0019,Corrective,Medium,Completed,Hydraulic leak repair,2023-09-04 18:00:00,2023-09-05 00:15:54,2023-09-07 10:06:52,42.02,MEC-002
+WO-00391,AST-0018,TECH-0014,Preventive,Medium,In Progress,Filter replacement,2023-02-12 10:00:00,2023-02-12 14:59:13,,,
+WO-00392,AST-0011,TECH-0014,Preventive,Medium,Completed,Filter replacement,2023-10-23 14:00:00,2023-10-23 15:23:01,2023-10-25 17:07:45,27.37,
+WO-00393,AST-0013,TECH-0007,Preventive,Medium,Completed,Torque check,2023-05-14 19:00:00,2023-05-14 23:31:14,2023-05-16 22:57:44,37.64,
+WO-00394,AST-0010,TECH-0019,Corrective,Medium,In Progress,Landing gear snag,2023-10-14 14:00:00,2023-10-14 18:07:41,,,
+WO-00395,AST-0007,TECH-0017,Inspection,Medium,Completed,Annual compliance check,2023-12-04 07:00:00,2023-12-04 13:06:30,2023-12-06 17:16:17,6.75,
+WO-00396,AST-0027,TECH-0005,Inspection,Low,Completed,Annual compliance check,2023-12-17 17:00:00,2023-12-17 17:53:25,2023-12-22 11:36:39,73.18,
+WO-00397,AST-0003,,Emergency,Medium,Open,AOG engine fault,2023-04-24 11:00:00,,,,
+WO-00398,AST-0021,TECH-0016,Corrective,Low,Completed,Engine vibration fix,2023-09-24 10:00:00,2023-09-24 15:50:13,2023-10-01 00:35:50,100.24,HYD-001
+WO-00399,AST-0006,TECH-0002,Preventive,Medium,Completed,Filter replacement,2023-05-27 09:00:00,2023-05-27 09:45:07,2023-05-29 04:00:21,7.83,
+WO-00400,AST-0022,TECH-0013,Preventive,Critical,In Progress,Torque check,2023-05-22 18:00:00,2023-05-22 21:29:44,,,
+WO-00401,AST-0012,TECH-0012,Corrective,Medium,Completed,Landing gear snag,2023-02-05 20:00:00,2023-02-05 21:10:34,2023-02-08 08:23:00,43.34,ELE-002
+WO-00402,AST-0010,TECH-0011,Corrective,High,Completed,Hydraulic leak repair,2023-10-22 06:00:00,2023-10-22 08:27:29,2023-10-22 15:10:28,0.39,
+WO-00403,AST-0025,TECH-0011,Corrective,High,Completed,Engine vibration fix,2023-10-22 10:00:00,2023-10-22 15:42:23,2023-10-24 11:58:49,27.27,
+WO-00404,AST-0003,,Corrective,Medium,Open,Engine vibration fix,2023-03-01 10:00:00,,,,
+WO-00405,AST-0008,TECH-0010,Inspection,High,Completed,Pre-flight walkaround,2023-06-11 12:00:00,2023-06-11 19:39:57,2023-06-12 00:38:27,3.31,
+WO-00406,AST-0006,TECH-0007,Corrective,Medium,Completed,Engine vibration fix,2023-10-11 20:00:00,2023-10-11 21:50:19,2023-10-13 00:02:28,12.03,
+WO-00407,AST-0004,TECH-0004,Preventive,Medium,Completed,Scheduled 500-hr inspection,2023-04-16 09:00:00,2023-04-16 11:01:14,2023-04-18 10:49:29,5.97,
+WO-00408,AST-0029,TECH-0019,Corrective,Medium,Completed,Landing gear snag,2023-10-05 06:00:00,2023-10-05 12:51:36,2023-10-06 20:17:33,22.58,AVN-001
+WO-00409,AST-0018,TECH-0002,Preventive,Low,Completed,Filter replacement,2023-07-23 09:00:00,2023-07-23 15:07:34,2023-07-27 18:58:08,33.8,
+WO-00410,AST-0011,TECH-0001,Corrective,Medium,In Progress,Hydraulic leak repair,2023-03-03 17:00:00,2023-03-03 21:23:11,,,
+WO-00411,AST-0020,TECH-0011,Preventive,Medium,Completed,Filter replacement,2023-11-10 19:00:00,2023-11-10 21:26:51,2023-11-12 00:39:11,10.26,
+WO-00412,AST-0019,TECH-0008,Preventive,Medium,Completed,Scheduled 500-hr inspection,2023-07-10 11:00:00,2023-07-10 17:54:26,2023-07-11 18:01:17,2.53,
+WO-00413,AST-0006,TECH-0014,Inspection,Low,Completed,Annual compliance check,2023-07-15 09:00:00,2023-07-15 10:35:37,2023-07-24 00:16:47,132.57,
+WO-00414,AST-0002,TECH-0013,Preventive,Low,Completed,Scheduled 500-hr inspection,2023-10-01 17:00:00,2023-10-01 19:52:04,2023-10-04 13:05:26,44.8,
+WO-00415,AST-0018,TECH-0018,Corrective,Critical,Completed,Landing gear snag,2023-09-01 19:00:00,2023-09-02 00:13:26,2023-09-02 02:01:40,0.52,MEC-001
+WO-00416,AST-0010,TECH-0012,Preventive,High,Completed,Filter replacement,2023-11-07 09:00:00,2023-11-07 13:49:35,2023-11-08 04:19:05,11.35,
+WO-00417,AST-0021,TECH-0011,Corrective,Medium,Completed,Engine vibration fix,2023-02-10 12:00:00,2023-02-10 17:06:08,2023-02-13 11:09:30,45.88,
+WO-00418,AST-0020,TECH-0013,Corrective,Medium,Completed,Landing gear snag,2023-02-10 08:00:00,2023-02-10 11:04:37,2023-02-12 12:44:23,28.23,AVN-001
+WO-00419,AST-0022,TECH-0009,Inspection,Low,Completed,Pre-flight walkaround,2023-09-24 13:00:00,2023-09-24 16:36:17,2023-09-26 05:06:56,21.26,
+WO-00420,AST-0002,,Preventive,Medium,Open,Scheduled 500-hr inspection,2023-08-31 14:00:00,,,,
+WO-00421,AST-0003,TECH-0013,Inspection,Medium,Cancelled,NDT check,2023-02-23 10:00:00,2023-02-23 15:08:08,,,
+WO-00422,AST-0030,TECH-0011,Preventive,Medium,Completed,Torque check,2023-03-06 08:00:00,2023-03-06 12:27:02,2023-03-07 04:44:56,4.65,
+WO-00423,AST-0015,TECH-0019,Corrective,Low,Completed,Engine vibration fix,2023-10-08 13:00:00,2023-10-08 14:30:48,2023-10-21 06:24:49,143.64,STR-001
+WO-00424,AST-0005,TECH-0010,Corrective,Medium,Completed,Hydraulic leak repair,2023-09-04 14:00:00,2023-09-04 16:12:12,2023-09-05 23:13:42,10.23,HYD-001
+WO-00425,AST-0023,TECH-0016,Corrective,Low,In Progress,Engine vibration fix,2023-05-27 13:00:00,2023-05-27 17:30:47,,,ELE-003
+WO-00426,AST-0013,TECH-0008,Preventive,Medium,Completed,Lubrication service,2023-04-29 18:00:00,2023-04-29 18:33:14,2023-05-01 07:11:16,16.43,
+WO-00427,AST-0020,TECH-0009,Inspection,Medium,Completed,NDT check,2023-04-23 10:00:00,2023-04-23 11:05:38,2023-04-25 05:23:27,27.07,
+WO-00428,AST-0015,TECH-0009,Corrective,Medium,Completed,Engine vibration fix,2023-04-07 19:00:00,2023-04-07 20:00:48,2023-04-08 16:22:21,7.42,ELE-002
+WO-00429,AST-0010,TECH-0009,Preventive,High,Cancelled,Lubrication service,2023-01-12 08:00:00,2023-01-12 15:47:32,,,
+WO-00430,AST-0011,TECH-0014,Inspection,Medium,In Progress,NDT check,2023-03-19 06:00:00,2023-03-19 10:12:06,,,
+WO-00431,AST-0009,TECH-0013,Inspection,Medium,Completed,Pre-flight walkaround,2023-12-23 18:00:00,2023-12-23 18:44:16,2023-12-26 01:40:07,6.42,
+WO-00432,AST-0013,TECH-0015,Corrective,High,Completed,Electrical fault trace,2023-05-09 19:00:00,2023-05-09 22:21:42,2023-05-10 20:42:16,12.77,
+WO-00433,AST-0030,TECH-0011,Emergency,High,Completed,Emergency hydraulic failure,2023-02-18 14:00:00,2023-02-18 19:29:42,2023-02-19 07:17:57,9.08,
+WO-00434,AST-0022,TECH-0007,Inspection,Medium,Completed,Pre-flight walkaround,2023-03-04 10:00:00,2023-03-04 14:06:33,2023-03-05 23:58:20,1.41,
+WO-00435,AST-0004,,Preventive,Medium,Open,Torque check,2023-05-22 15:00:00,,,,
+WO-00436,AST-0023,,Inspection,Critical,Open,Borescope inspection,2023-12-20 13:00:00,,,,
+WO-00437,AST-0030,TECH-0002,Corrective,Critical,In Progress,Hydraulic leak repair,2023-02-16 16:00:00,2023-02-16 21:08:23,,,MEC-001
+WO-00438,AST-0026,TECH-0015,Corrective,Medium,Completed,Electrical fault trace,2023-03-06 13:00:00,2023-03-06 15:14:42,2023-03-13 04:24:35,95.14,HYD-001
+WO-00439,AST-0018,TECH-0010,Corrective,Medium,In Progress,Engine vibration fix,2023-01-21 13:00:00,2023-01-21 18:47:58,,,ELE-002
+WO-00440,AST-0017,TECH-0005,Corrective,Medium,Completed,Engine vibration fix,2023-08-28 10:00:00,2023-08-28 17:00:26,2023-08-31 05:52:39,7.81,ELE-003
+WO-00441,AST-0025,TECH-0020,Inspection,Medium,Completed,Borescope inspection,2023-11-23 14:00:00,2023-11-23 17:20:34,2023-11-24 08:45:13,10.56,
+WO-00442,AST-0016,TECH-0018,Preventive,Critical,Cancelled,Lubrication service,2023-07-18 09:00:00,2023-07-18 13:25:49,,,
+WO-00443,AST-0028,TECH-0002,Corrective,High,Completed,Electrical fault trace,2023-02-26 07:00:00,2023-02-26 11:25:26,2023-02-27 07:15:26,2.06,HYD-002
+WO-00444,AST-0008,TECH-0020,Corrective,Critical,Completed,Hydraulic leak repair,2023-07-18 16:00:00,2023-07-18 20:10:27,2023-07-18 22:44:42,0.1,HYD-001
+WO-00445,AST-0014,TECH-0012,Emergency,High,Completed,AOG engine fault,2023-02-10 13:00:00,2023-02-10 19:30:27,2023-02-11 10:21:07,11.14,STR-002
+WO-00446,AST-0007,,Preventive,Critical,Open,Scheduled 500-hr inspection,2023-06-05 07:00:00,,,,
+WO-00447,AST-0018,TECH-0014,Preventive,High,Completed,Scheduled 500-hr inspection,2023-04-09 14:00:00,2023-04-09 19:25:35,2023-04-10 17:16:53,9.76,
+WO-00448,AST-0017,TECH-0011,Inspection,Medium,Completed,Borescope inspection,2023-12-26 16:00:00,2023-12-26 19:42:11,2023-12-29 04:53:45,25.16,
+WO-00449,AST-0014,TECH-0011,Corrective,Medium,Completed,Electrical fault trace,2023-06-11 14:00:00,2023-06-11 21:56:09,2023-06-13 08:24:31,21.07,STR-002
+WO-00450,AST-0010,TECH-0020,Corrective,Medium,Completed,Hydraulic leak repair,2023-05-11 11:00:00,2023-05-11 18:42:44,2023-05-13 06:33:19,20.83,STR-001
+WO-00451,AST-0028,,Preventive,Low,Open,Filter replacement,2023-04-24 09:00:00,,,,
+WO-00452,AST-0002,TECH-0015,Preventive,Low,Completed,Filter replacement,2023-05-22 20:00:00,2023-05-23 00:39:08,2023-05-29 06:55:07,18.6,
+WO-00453,AST-0007,TECH-0003,Preventive,High,Completed,Filter replacement,2023-05-08 09:00:00,2023-05-08 11:25:18,2023-05-09 02:29:26,6.86,
+WO-00454,AST-0024,TECH-0019,Inspection,High,Completed,Annual compliance check,2023-12-20 17:00:00,2023-12-20 21:49:18,2023-12-22 19:15:00,10.92,
+WO-00455,AST-0008,TECH-0020,Preventive,Critical,Completed,Scheduled 500-hr inspection,2023-06-28 20:00:00,2023-06-29 02:37:42,2023-06-29 06:01:55,2.37,
+WO-00456,AST-0011,,Corrective,Medium,Open,Electrical fault trace,2023-09-26 06:00:00,,,,MEC-001
+WO-00457,AST-0025,,Corrective,High,Open,Hydraulic leak repair,2023-07-21 13:00:00,,,,ELE-002
+WO-00458,AST-0024,TECH-0002,Corrective,Low,In Progress,Engine vibration fix,2023-06-22 07:00:00,2023-06-22 11:04:08,,,ELE-003
+WO-00459,AST-0007,TECH-0018,Preventive,Medium,Completed,Lubrication service,2023-03-08 18:00:00,2023-03-08 19:30:41,2023-03-10 12:15:21,21.26,
+WO-00460,AST-0007,TECH-0011,Preventive,High,Completed,Filter replacement,2023-12-17 20:00:00,2023-12-18 00:49:12,2023-12-18 13:03:52,3.58,
+WO-00461,AST-0030,TECH-0008,Corrective,Critical,Completed,Electrical fault trace,2023-06-29 15:00:00,2023-06-29 21:39:42,2023-06-30 05:24:03,2.73,
+WO-00462,AST-0027,TECH-0010,Corrective,Low,Completed,Hydraulic leak repair,2023-02-27 17:00:00,2023-02-27 17:54:32,2023-03-16 11:26:41,279.07,MEC-001
+WO-00463,AST-0009,TECH-0018,Corrective,High,Completed,Engine vibration fix,2023-01-12 11:00:00,2023-01-12 13:04:03,2023-01-12 21:32:09,3.54,STR-002
+WO-00464,AST-0010,TECH-0007,Inspection,High,Completed,NDT check,2023-01-10 12:00:00,2023-01-10 16:52:21,2023-01-10 22:27:18,0.76,
+WO-00465,AST-0009,,Preventive,Medium,Open,Filter replacement,2023-07-18 16:00:00,,,,
+WO-00466,AST-0011,TECH-0016,Inspection,Critical,Completed,Pre-flight walkaround,2023-11-29 12:00:00,2023-11-29 14:14:01,2023-11-29 17:57:48,0.3,
+WO-00467,AST-0024,TECH-0006,Preventive,Medium,Completed,Scheduled 500-hr inspection,2023-12-31 06:00:00,2023-12-31 06:47:53,2024-01-04 15:43:49,41.13,
+WO-00468,AST-0027,TECH-0001,Preventive,Medium,Completed,Filter replacement,2023-05-01 14:00:00,2023-05-01 16:34:08,2023-05-02 20:53:01,8.77,
+WO-00469,AST-0022,TECH-0008,Preventive,High,Completed,Torque check,2023-03-12 07:00:00,2023-03-12 12:58:27,2023-03-13 05:58:41,11.87,
+WO-00470,AST-0005,TECH-0007,Preventive,High,Cancelled,Lubrication service,2023-11-06 11:00:00,2023-11-06 14:52:07,,,
+WO-00471,AST-0029,TECH-0017,Corrective,Medium,In Progress,Electrical fault trace,2023-03-12 10:00:00,2023-03-12 15:39:50,,,MEC-002
+WO-00472,AST-0003,TECH-0018,Emergency,Low,In Progress,AOG engine fault,2023-10-17 20:00:00,2023-10-17 21:41:07,,,ELE-001
+WO-00473,AST-0027,TECH-0009,Preventive,Low,Completed,Lubrication service,2023-06-13 20:00:00,2023-06-14 03:47:48,2023-06-24 08:14:25,145.81,
+WO-00474,AST-0019,TECH-0020,Inspection,High,In Progress,Borescope inspection,2023-11-10 15:00:00,2023-11-10 17:30:05,,,
+WO-00475,AST-0025,,Corrective,High,Open,Engine vibration fix,2023-02-10 17:00:00,,,,ELE-001
+WO-00476,AST-0002,TECH-0014,Corrective,Medium,Completed,Hydraulic leak repair,2023-07-11 08:00:00,2023-07-11 14:53:27,2023-07-12 12:42:59,3.37,ELE-003
+WO-00477,AST-0020,TECH-0016,Emergency,High,Completed,Critical avionics failure,2023-04-14 18:00:00,2023-04-14 20:02:03,2023-04-15 18:01:07,7.73,AVN-001
+WO-00478,AST-0019,TECH-0020,Inspection,Medium,Completed,Pre-flight walkaround,2023-11-08 17:00:00,2023-11-08 23:40:56,2023-11-10 11:21:59,26.81,
+WO-00479,AST-0018,TECH-0013,Corrective,Medium,Completed,Hydraulic leak repair,2023-01-22 20:00:00,2023-01-23 03:58:07,2023-01-24 15:43:54,21.03,ELE-002
+WO-00480,AST-0029,TECH-0005,Preventive,Medium,Completed,Torque check,2023-05-27 13:00:00,2023-05-27 14:44:55,2023-05-30 06:46:35,35.34,
+WO-00481,AST-0014,TECH-0011,Inspection,Medium,Completed,Annual compliance check,2023-02-27 08:00:00,2023-02-27 14:20:25,2023-03-05 17:31:14,15.93,
+WO-00482,AST-0026,TECH-0006,Preventive,Medium,Completed,Scheduled 500-hr inspection,2023-04-14 20:00:00,2023-04-14 23:54:36,2023-04-17 03:39:46,37.56,
+WO-00483,AST-0006,TECH-0013,Preventive,Medium,Completed,Torque check,2023-02-13 14:00:00,2023-02-13 19:48:16,2023-02-16 14:51:53,32.84,
+WO-00484,AST-0014,TECH-0010,Preventive,High,Completed,Filter replacement,2023-12-04 19:00:00,2023-12-04 20:37:32,2023-12-06 03:03:53,17.34,
+WO-00485,AST-0001,TECH-0015,Inspection,Low,Completed,Annual compliance check,2023-04-03 07:00:00,2023-04-03 14:14:20,2023-04-10 15:07:45,103.41,
+WO-00486,AST-0007,,Inspection,Medium,Open,Annual compliance check,2023-09-10 09:00:00,,,,
+WO-00487,AST-0007,TECH-0002,Corrective,Medium,Completed,Electrical fault trace,2023-01-04 09:00:00,2023-01-04 16:06:58,2023-01-06 16:27:45,31.72,ELE-001
+WO-00488,AST-0020,TECH-0010,Preventive,High,In Progress,Filter replacement,2023-01-17 16:00:00,2023-01-17 20:50:08,,,
+WO-00489,AST-0026,TECH-0018,Emergency,Critical,Completed,Emergency hydraulic failure,2023-04-02 08:00:00,2023-04-02 13:32:26,2023-04-02 16:24:54,1.37,AVN-001
+WO-00490,AST-0012,,Inspection,Medium,Open,Annual compliance check,2023-06-03 11:00:00,,,,
+WO-00491,AST-0014,TECH-0017,Inspection,Low,Completed,Borescope inspection,2023-02-03 10:00:00,2023-02-03 14:01:52,2023-02-09 11:54:59,37.37,
+WO-00492,AST-0016,TECH-0020,Corrective,Medium,In Progress,Landing gear snag,2023-11-19 14:00:00,2023-11-19 21:54:14,,,MEC-002
+WO-00493,AST-0016,TECH-0016,Corrective,High,Completed,Electrical fault trace,2023-11-16 11:00:00,2023-11-16 18:27:11,2023-11-17 08:11:18,8.01,STR-002
+WO-00494,AST-0026,TECH-0004,Preventive,High,In Progress,Lubrication service,2023-03-02 06:00:00,2023-03-02 09:59:11,,,
+WO-00495,AST-0010,TECH-0009,Inspection,Low,Completed,Pre-flight walkaround,2023-06-20 11:00:00,2023-06-20 15:42:11,2023-06-22 02:43:35,5.64,
+WO-00496,AST-0001,TECH-0006,Preventive,Medium,Completed,Lubrication service,2023-01-04 07:00:00,2023-01-04 12:38:37,2023-01-06 18:09:40,26.37,
+WO-00497,AST-0028,TECH-0018,Preventive,High,Completed,Filter replacement,2023-08-31 18:00:00,2023-08-31 18:46:00,2023-09-01 02:21:49,2.8,
+WO-00498,AST-0001,TECH-0007,Corrective,Low,Completed,Landing gear snag,2023-01-29 19:00:00,2023-01-29 23:24:28,2023-02-03 22:27:39,52.88,
+WO-00499,AST-0027,,Emergency,Low,Open,AOG engine fault,2023-03-18 10:00:00,,,,MEC-001
+WO-00500,AST-0023,TECH-0011,Emergency,Medium,Completed,AOG engine fault,2023-10-20 15:00:00,2023-10-20 18:25:18,2023-10-23 07:30:35,36.73,ELE-003

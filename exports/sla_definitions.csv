@@ -1,0 +1,5 @@
+priority,target_hours,escalation_hours
+Critical,4.0,2.0
+High,24.0,12.0
+Medium,72.0,48.0
+Low,168.0,120.0
